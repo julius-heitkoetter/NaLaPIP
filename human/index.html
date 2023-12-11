@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Intuitive Physics With Natural Language Understanding Experiment</title>
+    <script src="https://unpkg.com/jspsych@7.3.4"></script>
+    <script src="https://unpkg.com/@jspsych/plugin-html-keyboard-response@1.1.3"></script>
+    <script src="https://unpkg.com/@jspsych/plugin-image-keyboard-response@1.1.3"></script>
+    <script src="https://unpkg.com/@jspsych/plugin-survey-likert@1.1.3"></script>
+    <script src="https://unpkg.com/@jspsych/plugin-survey-multi-choice@1.1.3"></script>
+    <script src="https://unpkg.com/@jspsych/plugin-survey-text@1.1.3"></script>
+    <script src="https://unpkg.com/@jspsych/plugin-preload@1.1.3"></script>
+    <link href="https://unpkg.com/jspsych@7.3.4/css/jspsych.css" rel="stylesheet" type="text/css" />
+  </head>
+  <body></body>
+  <script>
+
+    /* initialize jsPsych */
+    var jsPsych = initJsPsych({
+        show_progress_bar: true,
+        on_finish: function() {
+        
+            const API_URL = "http://127.0.0.1:3210/api/send_response";
+            // Send an API request with the chat content and discussion ID
+            try {
+            fetch(API_URL, {
+                method: "POST", // You may need to adjust the HTTP method
+                headers: {
+                    "Content-Type": "application/json",
+                    "Access-Control-Allow-Origin": "*",
+                },
+                body: JSON.stringify({
+                    data: jsPsych.data.get(),
+                    user_number: {{ user_number }},
+                }),
+            })
+            } catch (error) {
+            console.log("error sending response")
+            }
+
+      }
+    });
+
+    /* create timeline */
+    var timeline = [];
+
+    /* preload images */
+    var preload = {
+      type: jsPsychPreload,
+      images: [
+        '/static/img/ensemble0.png', 
+        '/static/img/ensemble1.png',
+        '/static/img/ensemble2.png',
+        '/static/img/ensemble3.png',
+        '/static/img/ensemble4.png',
+        '/static/img/ensemble5.png',
+        '/static/img/ensemble6.png',
+        '/static/img/ensemble7.png',]
+    };
+    /*var preload = {
+      type: jsPsychPreload,
+      auto_preload: true,
+    }*/
+    timeline.push(preload);
+
+    /* define welcome message trial */
+    /*var welcome = {
+      type: jsPsychHtmlKeyboardResponse,
+      stimulus: "Welcome to the experiment. Press any key to begin."
+    };
+    timeline.push(welcome);*/
+
+    /* define instructions trial */
+    var instructions1 = {
+      type: jsPsychHtmlKeyboardResponse,
+      stimulus: ['<p> Welcome! </p> <p> We are conducting an experiment about how people evaluate intuitive physics situations when asked a question in plain english. Your answers will be used to inform computer science and cognitive science research.</p>' + 
+      '<p> This experiment should take around <strong>10 minutes</strong></p> '+
+        '<p> We take your time seriously! The email for the main experimenter is <strong>juliush@mit.edu</strong>. </br></br> Please write this down now, and email us with the subject line <i>Human experiment for intuitive physics</i> if you have problems submitting this task, or if it takes much more time than expected. </p>'+
+        '<p>  Press any key to begin. </p>'
+    ],
+    };
+
+    var instructions2 = {
+      type: jsPsychHtmlKeyboardResponse,
+      stimulus: [
+    '<p>In this experiment, you will be presented with a series of images containing <strong>stacks of blocks and some simple questions.</strong></p>' +
+    '<p>The block are stacked on a grey platform in a configuration which may or may not be stable.</p>' +
+    '<p>In each situation, you will be asked to imagine what will occur after a sufficiently large amount of time has passed and gravity has finished acting on the stacks of blocks.',
+    '<p>Your task will be to think about how these blocks will fall and their position <strong>after they have finished falling</strong>. Note that sometimes, you may be presented with a stable stack where no blocks will fall.' +
+    '<p>You will enter your answer for each question by clicking a rating on a <strong>7-point multiple choice scale</strong> ranging from <strong>1 (definitely no)</strong> to <strong>7 (definitely yes)</strong>.',
+
+    '<p>You will see descriptions of <strong>24  different scenarios</strong> in total.</p>' +
+
+    '<p> When you are ready, please click any key to complete a quick comprehension check, before moving on to the experiment. </p>',],
+    show_clickable_nav: true
+    };
+
+    var comprehension_check = {
+        type: jsPsychSurveyMultiChoice,
+        preamble: ["<p align='center'>Check your knowledge before you begin. If you don't know the answers, don't worry; we will show you the instructions again.</p>"],
+        questions: [
+            {
+                prompt: "What will you be asked to do in this task?",
+                options: [
+                    "Look at images containing blocks and answer questions about what is currently occuring in the image.", 
+                    "Look at images containing blocks and answer questions about what will happen in the image after gravity has acted on the blocks.", 
+                    "Look at images containing blocks and answer questions about what will happen in the image while gravity is acting on the blocks."],
+                required: true
+            },
+            {
+                prompt: "How will you be providing your answer?</i>",
+                options: [
+                    "By writing text.", 
+                    "By selecting an option from a multiple choice scale.", 
+                    "By moving a slider."],
+                required: true
+            },
+        ],
+        on_finish: function (data) {
+            var responses = data.response;
+
+            if (responses['Q0'] == "Look at images containing blocks and answer questions about what will happen in the image after gravity has acted on the blocks." && responses['Q1'] == "By selecting an option from a multiple choice scale.") {
+                familiarization_check_correct = true;
+            } else {
+                familiarization_check_correct = false;
+            }
+        }
+    }
+
+    var familiarization_timeline = [instructions2, comprehension_check]
+
+    var familiarization_loop = {
+        timeline: familiarization_timeline,
+        loop_function: function (data) {
+            return !familiarization_check_correct;
+        }
+    }
+    timeline.push(instructions1)
+    timeline.push(familiarization_loop)
+
+    var likert_scale = [
+        "Deinitely No", 
+        "Probably No", 
+        "Maybe No",
+        "Neutral", 
+        "Maybe Yes", 
+        "Probably Yes",
+        "Definitely Yes",
+    ];
+
+    var stimuli_batch = {{ stimuli_batch | safe}};
+
+    var progress_bar_increase = 1 / (stimuli_batch.length)
+    for (var i=0; i < stimuli_batch.length; i++) {
+        var stimulus = stimuli_batch[i]
+        var question_page = {
+            type: jsPsychSurveyLikert,
+            questions: [
+                {
+                    prompt: '<img src="/static/img/ensemble' +  stimulus["box_ensemble_index"]+ '.png"></img><p>' + stimulus["english_question"] +'</p>', 
+                    labels: likert_scale
+                },
+            ],
+        };
+
+        var question_task = {
+            timeline: [question_page],
+            data: {
+                english_question: stimulus["english_question"],
+                box_ensemble_index: stimulus["box_ensemble_index"],
+                task: 'answer_physical_image_questions',
+                task_id: stimulus['task_id'],
+                //subj_id: jsPsych.timelineVariable('id'),
+            },
+            on_finish: function () {
+            var curr_progress_bar_value = jsPsych.getProgressBarCompleted();
+            jsPsych.setProgressBar(curr_progress_bar_value + progress_bar_increase);
+            }
+        }
+        timeline.push(question_task);
+    }
+
+    var comments_block = {
+        type: jsPsychSurveyText,
+        preamble: "<p>Thank you for participating in our study!</p>" +
+            "<p>Click <strong>\"Finish\"</strong> to complete the experiment. If you have any comments about the experiment, please let us know in the form below.</p>",
+        questions: [
+            { prompt: "Were the instructions clear? (On a scale of 1-10, with 10 being very clear)" },
+            { prompt: "How challenging was it to come up with an answer per question/image pair? (On a scale of 1-10, with 10 being very challenging)" },
+            { prompt: "Were there any tricks you used to help you answer the questions?", rows: 5, columns: 50 },
+            { prompt: "Do you have any additional comments to share with us?", rows: 5, columns: 50 }],
+        button_label: "Finish",
+    };
+    timeline.push(comments_block)
+
+    /* start the experiment */
+    jsPsych.run(timeline);
+
+  </script>
+</html>
