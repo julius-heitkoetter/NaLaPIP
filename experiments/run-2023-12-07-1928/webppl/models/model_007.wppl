@@ -1,0 +1,143 @@
+
+var makeWorld = function(noise) {
+  
+  var worldWidth = 600;
+  var worldHeight = 500;
+
+    //// Object definitions ////
+
+    var ground = {
+      shape: 'rect',
+      static: true,
+      dims: [100000 * worldWidth, 5],
+      x: worldWidth / 2,
+      y: worldHeight - 5,
+      type: "ground",
+    }
+
+    var table = {
+      shape: 'rect',
+      static: true,
+      dims: [125, 82.5],
+      x: 300,
+      y: worldHeight-92.5,
+      type: "table",
+    }
+    
+    var generate_boxes_from_arr = function(pos_arr, size_arr, color_arr, noise, boxes_so_far) {
+      var i = boxes_so_far.length;
+      var box = {
+        shape: 'rect',
+        static: false,
+        dims: [size_arr[i][0] + gaussian({mu: 0, sigma: noise}), size_arr[i][1] + gaussian({mu: 0, sigma: noise})], 
+        x: pos_arr[i][0] + gaussian({mu: 0, sigma: noise}),
+        y: pos_arr[i][1] + gaussian({mu: 0, sigma: noise}),
+        color: color_arr[i],
+        type: "box",
+      }
+      
+      var boxes = boxes_so_far.concat([box])
+      
+      if (boxes.length == pos_arr.length) {
+        return boxes
+      } else {
+        return generate_boxes_from_arr(pos_arr, size_arr, color_arr, noise, boxes)
+      }
+    }
+    
+    var boxes = generate_boxes_from_arr(
+            [
+                [390, 325-30],
+                [390, 325-90],
+                [390, 325-150],
+                [250, 325-40],
+                [270, 325-100],
+                [280, 325-160],
+                [260, 325-220],
+                [275, 325-270],
+            ],
+            [
+                [20, 30],
+                [20, 30],
+                [20, 30],
+                [20, 40],
+                [60, 20],
+                [20, 40],
+                [60, 20],
+                [20, 30]
+            ],
+            [
+                'purple',
+                'purple',
+                'purple',
+                'red',
+                'red',
+                'red',
+                'red',
+                'red',
+        ], noise, [])
+    
+    var world = {
+      boxes: boxes,
+      table: table,
+      ground: ground,
+    } 
+    
+    return world
+    
+    }
+  ///////////////////
+  //// Semantics ////
+  ///////////////////
+
+var isOnPlatform = function(obj) {
+  return obj.y < 325;
+}
+
+var isLeftOfPlatform = function(obj) {
+  return obj.y > 325 && obj.x < 175;
+}
+
+var isRightOfPlatform = function(obj) {
+  return obj.y > 325 && obj.x > 425;
+}
+
+var flattenWorld = function (world) {
+    return [world.ground, world.table].concat(world.boxes);
+  }
+
+var run = function (world) {
+  
+  // Run World
+  var flatWorld = flattenWorld(world);
+  //physics.animate(1000, flatWorld);
+  var finalWorld = physics.run(1000, flatWorld)
+  
+  var finalBoxes = finalWorld.slice(0,8);
+  
+  var conditional = filter(isOnPlatform, finalBoxes).length > 3
+  return conditional ? 1 : 0;
+}
+
+var result = function() {
+  var d = Infer({method: 'rejection', samples: 10, incremental: true},
+               function() { return run(makeWorld( 2 )) })
+  var noProb = Math.exp(d.score(0))
+  var yesProb = Math.exp(d.score(1))
+  var likert = Math.round((yesProb / (noProb + yesProb)) * 6) + 1;
+  return likert;
+}
+
+var dist = Infer({ method: 'forward', samples: 20 }, result);
+
+ var getData = function (key) {
+    return Math.exp(dist.score(key));
+  }
+  var output = {
+    "probs": map(getData, dist.support()),
+    "support": dist.support()
+  }
+
+//var flatWorld = flattenWorld(makeWorld(0.0001));
+//physics.animate(1000, flatWorld);
+JSON.stringify(output);

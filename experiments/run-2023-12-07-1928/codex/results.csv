@@ -1,0 +1,9 @@
+task_id,box_ensemble_index,codex_conditional_str
+1,0,"filter(isOnPlatform, finalBoxes).length > 3"
+2,1,"filter(isOnPlatform, finalBoxes).length > 3"
+3,2,"filter(isOnPlatform, finalBoxes).length > 3"
+4,3,"filter(isOnPlatform, finalBoxes).length > 3"
+5,4,"filter(isOnPlatform, finalBoxes).length > 3"
+6,5,"filter(isOnPlatform, finalBoxes).length > 3"
+7,6,"filter(isOnPlatform, finalBoxes).length > 3"
+8,7,"filter(isOnPlatform, finalBoxes).length > 3"
