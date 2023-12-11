@@ -1,0 +1,9 @@
+task_id,english_question,code_conditional
+1,"After some time has passed, will there be more than 3 boxes on the platform?","filter(isOnPlatform, finalBoxes).length > 3"
+2,"After some time has passed, wil there be any boxes to the left of the platform?","filter(isLeftOfPlatform, finalBoxes).length > 0"
+3,"After some time has passed, will there be more than 2 blue boxes on the platform?","filter(isOnPlatform, filter(isBlue, finalBoxes)).length > 2"
+4,"After some time has passed, will there be more blue boxes to the left of the platform than purple boxes?","filter(isOnPlatform, filter(isBlue, finalBoxes)).length > filter(isOnPlatform, filter(isPurple, finalBoxes)).length"
+5,"After some time has passed, will there be any large boxes to the left of the platform?","filter(isOnPlatform, filter(isLarge, finalBoxes)).length > 0"
+6,"After some time has passed, will most of the boxes have fallen off of the platform?","filter(isNotOnPlatform, filter(isLarge, finalBoxes)).length > filter(isOnPlatform, filter(isLarge, finalBoxes)).length"
+7,"After some time has passed, will there be an even number of purple boxes on the platform?","filter(isOnPlatform, filter(isPurple, finalBoxes)).length % 2 == 0"
+8,"After some time has passed, will some of the purple blocks have fallen off the platform.","filter(isNotOnPlatform, filter(isPurple, finalBoxes)).length > 0"
