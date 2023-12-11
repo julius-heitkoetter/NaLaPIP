@@ -2,6 +2,9 @@ from flask import request, jsonify, render_template
 from flask import Flask
 from flask_cors import CORS
 
+import pandas as pd
+import numpy as np
+
 from datetime import datetime
 import csv
 import os
@@ -18,7 +21,7 @@ DIR_DATA = "data"
 
 class FlaskAppWrapper(object):
 
-    def __init__(self, app, experiment_id, input_file_name, num_question_per_user, **configs):
+    def __init__(self, app, experiment_id, input_file_name, num_questions_per_user, **configs):
         
         #Initialize
         self.app = app
@@ -42,7 +45,7 @@ class FlaskAppWrapper(object):
         random.shuffle(total_input_data)
         
         # split up the data into chunks that the user can handle
-        m = num_question_per_user
+        m = num_questions_per_user
         sub_lists = [total_input_data[i:i + m] for i in range(0, len(total_input_data), m)]
         self.input_data = sub_lists
 
@@ -74,7 +77,7 @@ class FlaskAppWrapper(object):
         return render_template(
             'index.html', 
             user_number = self.assigning_user_number, 
-            stimuli_batch = self.input_data
+            stimuli_batch = data_for_user,
         )
         
     def heartbeat(self):
@@ -110,10 +113,46 @@ class FlaskAppWrapper(object):
                     # Write the data row
                     writer.writerow(new_row)
 
+        self.aggregate_responses()
 
         return jsonify({
             'response': "OK",
         })
+
+    def aggregate_responses(self):
+        
+        unaggregated_file_name = os.path.join(self.saving_loc, "human_unaggregated_results.csv")
+        df = pd.read_csv(unaggregated_file_name)
+
+        # Function to calculate probabilities
+        def calculate_probs(ratings):
+            values, counts = np.unique(ratings, return_counts=True)
+            probs = counts / counts.sum()
+            return probs, values
+
+        # Group by 'task_id' and apply custom operations
+        result = df.groupby('task_id').agg({
+            'rating': lambda x: calculate_probs(x),
+            'runtime': 'mean'
+        })
+
+        # Split the rating tuple into two separate columns
+        result['probs'], result['support'] = zip(*result['rating'])
+        result.drop('rating', axis=1, inplace=True)
+
+        # Reset index to make 'task_id' a column again
+        result = result.reset_index()
+
+        def list_to_string(lst):
+            """Converts a list to a string with elements separated by commas."""
+            return '[' + ', '.join(map(str, lst)) + ']'
+        result['probs'] = result['probs'].apply(list_to_string)
+        result['support'] = result['support'].apply(list_to_string)
+
+        aggregated_file_name = os.path.join(self.saving_loc, "human_aggregated_results.csv")
+        result.to_csv(aggregated_file_name, index=False)
+
+
 
 def main():
 
@@ -122,14 +161,14 @@ def main():
     parser.add_argument("input_file_name")
     parser.add_argument("--port", type=int, default=3210, help="Which port to run the app on.")
     parser.add_argument("--host", type=str, default="0.0.0.0", help="Which host to run the app on.")
-    parser.add_argument("--num_question_per_user", type=int, default=24, help="How many questions each user is presented with")
+    parser.add_argument("--num_questions_per_user", type=int, default=24, help="How many questions each user is presented with")
     args = parser.parse_args()
 
     app = FlaskAppWrapper(Flask(
         __name__,
         template_folder="/data/julius_heitkoetter/NaLaPIP/human",
         static_folder="/data/julius_heitkoetter/NaLaPIP/human/static",
-    ), args.experiment_id, args.input_file_name, args.num_question_per_user)
+    ), args.experiment_id, args.input_file_name, args.num_questions_per_user)
     app.run(debug=True,port=args.port, host=args.host)
 
 if __name__ == "__main__":
