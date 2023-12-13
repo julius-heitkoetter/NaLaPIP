@@ -19,7 +19,7 @@
         show_progress_bar: true,
         on_finish: function() {
         
-            const API_URL = "http://127.0.0.1:3210/api/send_response";
+            const API_URL = "http://18.18.54.13:7688/api/send_response";
             // Send an API request with the chat content and discussion ID
             try {
             fetch(API_URL, {
@@ -73,9 +73,9 @@
     var instructions1 = {
       type: jsPsychHtmlKeyboardResponse,
       stimulus: ['<p> Welcome! </p> <p> We are conducting an experiment about how people evaluate intuitive physics situations when asked a question in plain english. Your answers will be used to inform computer science and cognitive science research.</p>' + 
-      '<p> This experiment should take around <strong>10 minutes</strong></p> '+
-        '<p> We take your time seriously! The email for the main experimenter is <strong>juliush@mit.edu</strong>. </br></br> Please write this down now, and email us with the subject line <i>Human experiment for intuitive physics</i> if you have problems submitting this task, or if it takes much more time than expected. </p>'+
-        '<p>  Press any key to begin. </p>'
+      '<p> This experiment should take no more than <strong>10 minutes</strong></p> '
+        // + '<p> We take your time seriously! The email for the main experimenter is <strong>juliush@mit.edu</strong>. </br></br> Please write this down now, and email us with the subject line <i>Human experiment for intuitive physics</i> if you have problems submitting this task, or if it takes much more time than expected. </p>'
+         +'<p>  Press any key to begin. </p>'
     ],
     };
 
@@ -138,7 +138,7 @@
     timeline.push(familiarization_loop)
 
     var likert_scale = [
-        "Deinitely No", 
+        "Definitely No", 
         "Probably No", 
         "Maybe No",
         "Neutral", 
