@@ -21,13 +21,15 @@ DIR_DATA = "data"
 
 class FlaskAppWrapper(object):
 
-    def __init__(self, app, experiment_id, input_file_name, num_questions_per_user, **configs):
+    def __init__(self, app, experiment_id, input_file_name, num_questions_per_user, seed, **configs):
         
         #Initialize
         self.app = app
         self.configs(**configs)
 
         self.assigning_user_number = 0
+
+        np.random.seed(seed)
 
         self.experiment_id = experiment_id
         self.saving_loc = os.path.join(DIR_EXPERIMENTS, self.experiment_id, DIR_HUMAN)
@@ -42,7 +44,7 @@ class FlaskAppWrapper(object):
 
             for row in reader:
                 total_input_data.append(row)
-        random.shuffle(total_input_data)
+        np.random.shuffle(total_input_data)
         
         # split up the data into chunks that the user can handle
         m = num_questions_per_user
@@ -70,7 +72,7 @@ class FlaskAppWrapper(object):
 
     def index(self):
         
-        self.assigning_user_number += 1
+        #self.assigning_user_number += 1 #moved this to send_response
 
         data_for_user = self.input_data[self.assigning_user_number % len(self.input_data)]
 
@@ -105,6 +107,8 @@ class FlaskAppWrapper(object):
             for row in data:
                 if row["trial_type"] == 'survey-likert':
                     task_id = row["task_id"]
+                    if (row["response"]["Q0"] ==""):
+                        continue
                     rating = row["response"]["Q0"] + 1
                     time = row["time_elapsed"] / 10000
 
@@ -112,6 +116,8 @@ class FlaskAppWrapper(object):
 
                     # Write the data row
                     writer.writerow(new_row)
+
+        self.assigning_user_number += 1
 
         self.aggregate_responses()
 
@@ -162,13 +168,14 @@ def main():
     parser.add_argument("--port", type=int, default=3210, help="Which port to run the app on.")
     parser.add_argument("--host", type=str, default="0.0.0.0", help="Which host to run the app on.")
     parser.add_argument("--num_questions_per_user", type=int, default=24, help="How many questions each user is presented with")
+    parser.add_argument("--seed", type=int, default=24, help="Random seed for shuffling of questions")
     args = parser.parse_args()
 
     app = FlaskAppWrapper(Flask(
         __name__,
-        template_folder="/data/julius_heitkoetter/NaLaPIP/human",
-        static_folder="/data/julius_heitkoetter/NaLaPIP/human/static",
-    ), args.experiment_id, args.input_file_name, args.num_questions_per_user)
+        template_folder="/work/submit/juliush/llm_playground/NaLaPIP/human",
+        static_folder="/work/submit/juliush/llm_playground/NaLaPIP/human/static",
+    ), args.experiment_id, args.input_file_name, args.num_questions_per_user, args.seed)
     app.run(debug=True,port=args.port, host=args.host)
 
 if __name__ == "__main__":
