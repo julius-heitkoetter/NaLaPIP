@@ -1,0 +1,2152 @@
+Rc files read:
+  NONE
+Latexmk: This is Latexmk, John Collins, 6 Nov. 2023. Version 4.81.
+No existing .aux file, so I'll make a simple one, and require run of *latex.
+Latexmk: applying rule 'pdflatex'...
+Rule 'pdflatex':  Reasons for rerun
+Category 'other':
+  Rerun of 'pdflatex' forced or previously required
+
+------------
+Run number 1 of rule 'pdflatex'
+------------
+------------
+Running 'pdflatex  -recorder  "apacxmpl.tex"'
+------------
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013)
+ restricted \write18 enabled.
+entering extended mode
+(./apacxmpl.tex
+LaTeX2e <2011/06/27>
+Babel <v3.8m> and hyphenation patterns for english, dumylang, nohyphenation, lo
+aded.
+(/usr/share/texlive/texmf-dist/tex/latex/base/article.cls
+Document Class: article 2007/10/19 v1.4h Standard LaTeX document class
+(/usr/share/texlive/texmf-dist/tex/latex/base/size10.clo))
+(/usr/share/texlive/texmf-dist/tex/latex/url/url.sty) (./apacite.sty)
+(./apacdoc.sty) (./apacxmpl.aux) (./english.apc)
+
+LaTeX Warning: Citation `apa6:ch7-ex1' undefined on input line 69.
+
+
+LaTeX Warning: Citation `apa6:ch7-ex2' undefined on input line 75.
+
+
+LaTeX Warning: Citation `apa6:ch7-ex3-1' undefined on input line 80.
+
+
+LaTeX Warning: Citation `apa6:ch7-ex3-2' undefined on input line 85.
+
+
+LaTeX Warning: Citation `apa6:ch7-ex4' undefined on input line 90.
+
+
+LaTeX Warning: Citation `apa6:ch7-ex5' undefined on input line 96.
+
+
+LaTeX Warning: Citation `apa6:ch7-ex6' undefined on input line 101.
+
+[1{/usr/share/texlive/texmf/fonts/map/pdftex/updmap/pdftex.map}]
+
+LaTeX Warning: Citation `apa6:ch7-ex7' undefined on input line 107.
+
+
+LaTeX Warning: Citation `apa6:ch7-ex8' undefined on input line 112.
+
+
+LaTeX Warning: Citation `apa6:ch7-ex9' undefined on input line 117.
+
+
+LaTeX Warning: Citation `apa6:ch7-ex10' undefined on input line 123.
+
+
+LaTeX Warning: Citation `apa6:ch7-ex11' undefined on input line 129.
+
+
+LaTeX Warning: Citation `apa6:ch7-ex12-1' undefined on input line 135.
+
+
+LaTeX Warning: Citation `apa6:ch7-ex12-2' undefined on input line 140.
+
+
+LaTeX Warning: Citation `apa6:ch7-ex12-3' undefined on input line 145.
+
+
+LaTeX Warning: Citation `apa6:ch7-ex13-1' undefined on input line 151.
+
+
+LaTeX Warning: Citation `apa6:ch7-ex13-2' undefined on input line 156.
+
+
+LaTeX Warning: Citation `apa6:ch7-ex13-3' undefined on input line 161.
+
+[2]
+
+LaTeX Warning: Citation `apa6:ch7-ex14' undefined on input line 166.
+
+
+LaTeX Warning: Citation `apa6:ch7-ex15' undefined on input line 171.
+
+
+LaTeX Warning: Citation `apa6:ch7-ex16-1' undefined on input line 176.
+
+
+LaTeX Warning: Citation `apa6:ch7-ex16-2' undefined on input line 181.
+
+
+LaTeX Warning: Citation `apa6:ch7-ex17' undefined on input line 186.
+
+
+LaTeX Warning: Citation `apa6:ch7-ex18' undefined on input line 191.
+
+
+LaTeX Warning: Citation `apa6:ch7-ex19-1' undefined on input line 196.
+
+
+LaTeX Warning: Citation `apa6:ch7-ex19-2' undefined on input line 201.
+
+[3]
+
+LaTeX Warning: Citation `apa6:ch7-ex20' undefined on input line 206.
+
+
+LaTeX Warning: Citation `apa6:ch7-ex21' undefined on input line 211.
+
+
+LaTeX Warning: Citation `apa6:ch7-ex22' undefined on input line 216.
+
+
+LaTeX Warning: Citation `apa6:ch7-ex23' undefined on input line 221.
+
+
+LaTeX Warning: Citation `apa6:ch7-ex24' undefined on input line 226.
+
+
+LaTeX Warning: Citation `apa6:ch7-ex25' undefined on input line 231.
+
+
+LaTeX Warning: Citation `apa6:ch7-ex26' undefined on input line 236.
+
+
+LaTeX Warning: Citation `apa6:ch7-ex27' undefined on input line 241.
+
+
+LaTeX Warning: Citation `apa6:ch7-ex28' undefined on input line 246.
+
+
+LaTeX Warning: Citation `apa6:ch7-ex29' undefined on input line 251.
+
+[4]
+
+LaTeX Warning: Citation `apa6:ch7-ex30' undefined on input line 256.
+
+
+LaTeX Warning: Citation `apa6:ch7-ex31' undefined on input line 261.
+
+
+LaTeX Warning: Citation `apa6:ch7-ex32' undefined on input line 266.
+
+
+LaTeX Warning: Citation `apa6:ch7-ex33' undefined on input line 271.
+
+
+LaTeX Warning: Citation `apa6:ch7-ex34' undefined on input line 276.
+
+
+LaTeX Warning: Citation `apa6:ch7-ex35' undefined on input line 281.
+
+
+LaTeX Warning: Citation `apa6:ch7-ex36' undefined on input line 286.
+
+
+LaTeX Warning: Citation `apa6:ch7-ex37' undefined on input line 291.
+
+
+LaTeX Warning: Citation `apa6:ch7-ex38' undefined on input line 296.
+
+
+LaTeX Warning: Citation `apa6:ch7-ex39' undefined on input line 301.
+
+[5]
+
+LaTeX Warning: Citation `apa6:ch7-ex40' undefined on input line 306.
+
+
+LaTeX Warning: Citation `apa6:ch7-ex40-2' undefined on input line 311.
+
+
+LaTeX Warning: Citation `apa6:ch7-ex40-3' undefined on input line 316.
+
+
+LaTeX Warning: Citation `apa6:ch7-ex41' undefined on input line 321.
+
+
+LaTeX Warning: Citation `apa6:ch7-ex42' undefined on input line 326.
+
+
+LaTeX Warning: Citation `apa6:ch7-ex43' undefined on input line 331.
+
+
+LaTeX Warning: Citation `apa6:ch7-ex44' undefined on input line 336.
+
+No file apacxmpl.bbl.
+[6] (./apacxmpl.aux)
+
+LaTeX Warning: There were undefined references.
+
+ )</usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></us
+r/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx9.pfb></usr/share
+/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/share/texliv
+e/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/share/texlive/texmf
+-dist/fonts/type1/public/amsfonts/cm/cmr17.pfb></usr/share/texlive/texmf-dist/f
+onts/type1/public/amsfonts/cm/cmr9.pfb></usr/share/texlive/texmf-dist/fonts/typ
+e1/public/amsfonts/cm/cmss12.pfb></usr/share/texlive/texmf-dist/fonts/type1/pub
+lic/amsfonts/cm/cmss17.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/am
+sfonts/cm/cmss9.pfb>
+Output written on apacxmpl.pdf (6 pages, 90923 bytes).
+Transcript written on apacxmpl.log.
+Latexmk: Getting log file 'apacxmpl.log'
+Latexmk: Examining 'apacxmpl.fls'
+Latexmk: Examining 'apacxmpl.log'
+Latexmk: Log file says output to 'apacxmpl.pdf'
+Latexmk: Found bibliography file(s):
+  ./apa5ex.bib
+Latexmk: applying rule 'bibtex apacxmpl'...
+Rule 'bibtex apacxmpl':  Reasons for rerun
+Category 'other':
+  Rerun of 'bibtex apacxmpl' forced or previously required
+
+------------
+Run number 1 of rule 'bibtex apacxmpl'
+------------
+------------
+Running 'bibtex  "apacxmpl.aux"'
+------------
+This is BibTeX, Version 0.99d (TeX Live 2013)
+The top-level auxiliary file: apacxmpl.aux
+The style file: apacite.bst
+Database file #1: apa5ex.bib
+apacite.bst [2013/07/21 v6.03 APA bibliography style]
+Latexmk: applying rule 'pdflatex'...
+Rule 'pdflatex':  Reasons for rerun
+Changed files or newly in use/created:
+  apacxmpl.aux
+  apacxmpl.bbl
+
+------------
+Run number 2 of rule 'pdflatex'
+------------
+------------
+Running 'pdflatex  -recorder  "apacxmpl.tex"'
+------------
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013)
+ restricted \write18 enabled.
+entering extended mode
+(./apacxmpl.tex
+LaTeX2e <2011/06/27>
+Babel <v3.8m> and hyphenation patterns for english, dumylang, nohyphenation, lo
+aded.
+(/usr/share/texlive/texmf-dist/tex/latex/base/article.cls
+Document Class: article 2007/10/19 v1.4h Standard LaTeX document class
+(/usr/share/texlive/texmf-dist/tex/latex/base/size10.clo))
+(/usr/share/texlive/texmf-dist/tex/latex/url/url.sty) (./apacite.sty)
+(./apacdoc.sty) (./apacxmpl.aux) (./english.apc)
+
+LaTeX Warning: Citation `apa6:ch7-ex1' undefined on input line 69.
+
+
+LaTeX Warning: Citation `apa6:ch7-ex2' undefined on input line 75.
+
+
+LaTeX Warning: Citation `apa6:ch7-ex3-1' undefined on input line 80.
+
+
+LaTeX Warning: Citation `apa6:ch7-ex3-2' undefined on input line 85.
+
+
+LaTeX Warning: Citation `apa6:ch7-ex4' undefined on input line 90.
+
+
+LaTeX Warning: Citation `apa6:ch7-ex5' undefined on input line 96.
+
+
+LaTeX Warning: Citation `apa6:ch7-ex6' undefined on input line 101.
+
+[1{/usr/share/texlive/texmf/fonts/map/pdftex/updmap/pdftex.map}]
+
+LaTeX Warning: Citation `apa6:ch7-ex7' undefined on input line 107.
+
+
+LaTeX Warning: Citation `apa6:ch7-ex8' undefined on input line 112.
+
+
+LaTeX Warning: Citation `apa6:ch7-ex9' undefined on input line 117.
+
+
+LaTeX Warning: Citation `apa6:ch7-ex10' undefined on input line 123.
+
+
+LaTeX Warning: Citation `apa6:ch7-ex11' undefined on input line 129.
+
+
+LaTeX Warning: Citation `apa6:ch7-ex12-1' undefined on input line 135.
+
+
+LaTeX Warning: Citation `apa6:ch7-ex12-2' undefined on input line 140.
+
+
+LaTeX Warning: Citation `apa6:ch7-ex12-3' undefined on input line 145.
+
+
+LaTeX Warning: Citation `apa6:ch7-ex13-1' undefined on input line 151.
+
+
+LaTeX Warning: Citation `apa6:ch7-ex13-2' undefined on input line 156.
+
+
+LaTeX Warning: Citation `apa6:ch7-ex13-3' undefined on input line 161.
+
+[2]
+
+LaTeX Warning: Citation `apa6:ch7-ex14' undefined on input line 166.
+
+
+LaTeX Warning: Citation `apa6:ch7-ex15' undefined on input line 171.
+
+
+LaTeX Warning: Citation `apa6:ch7-ex16-1' undefined on input line 176.
+
+
+LaTeX Warning: Citation `apa6:ch7-ex16-2' undefined on input line 181.
+
+
+LaTeX Warning: Citation `apa6:ch7-ex17' undefined on input line 186.
+
+
+LaTeX Warning: Citation `apa6:ch7-ex18' undefined on input line 191.
+
+
+LaTeX Warning: Citation `apa6:ch7-ex19-1' undefined on input line 196.
+
+
+LaTeX Warning: Citation `apa6:ch7-ex19-2' undefined on input line 201.
+
+[3]
+
+LaTeX Warning: Citation `apa6:ch7-ex20' undefined on input line 206.
+
+
+LaTeX Warning: Citation `apa6:ch7-ex21' undefined on input line 211.
+
+
+LaTeX Warning: Citation `apa6:ch7-ex22' undefined on input line 216.
+
+
+LaTeX Warning: Citation `apa6:ch7-ex23' undefined on input line 221.
+
+
+LaTeX Warning: Citation `apa6:ch7-ex24' undefined on input line 226.
+
+
+LaTeX Warning: Citation `apa6:ch7-ex25' undefined on input line 231.
+
+
+LaTeX Warning: Citation `apa6:ch7-ex26' undefined on input line 236.
+
+
+LaTeX Warning: Citation `apa6:ch7-ex27' undefined on input line 241.
+
+
+LaTeX Warning: Citation `apa6:ch7-ex28' undefined on input line 246.
+
+
+LaTeX Warning: Citation `apa6:ch7-ex29' undefined on input line 251.
+
+[4]
+
+LaTeX Warning: Citation `apa6:ch7-ex30' undefined on input line 256.
+
+
+LaTeX Warning: Citation `apa6:ch7-ex31' undefined on input line 261.
+
+
+LaTeX Warning: Citation `apa6:ch7-ex32' undefined on input line 266.
+
+
+LaTeX Warning: Citation `apa6:ch7-ex33' undefined on input line 271.
+
+
+LaTeX Warning: Citation `apa6:ch7-ex34' undefined on input line 276.
+
+
+LaTeX Warning: Citation `apa6:ch7-ex35' undefined on input line 281.
+
+
+LaTeX Warning: Citation `apa6:ch7-ex36' undefined on input line 286.
+
+
+LaTeX Warning: Citation `apa6:ch7-ex37' undefined on input line 291.
+
+
+LaTeX Warning: Citation `apa6:ch7-ex38' undefined on input line 296.
+
+
+LaTeX Warning: Citation `apa6:ch7-ex39' undefined on input line 301.
+
+[5]
+
+LaTeX Warning: Citation `apa6:ch7-ex40' undefined on input line 306.
+
+
+LaTeX Warning: Citation `apa6:ch7-ex40-2' undefined on input line 311.
+
+
+LaTeX Warning: Citation `apa6:ch7-ex40-3' undefined on input line 316.
+
+
+LaTeX Warning: Citation `apa6:ch7-ex41' undefined on input line 321.
+
+
+LaTeX Warning: Citation `apa6:ch7-ex42' undefined on input line 326.
+
+
+LaTeX Warning: Citation `apa6:ch7-ex43' undefined on input line 331.
+
+
+LaTeX Warning: Citation `apa6:ch7-ex44' undefined on input line 336.
+
+(./apacxmpl.bbl [6] [7]
+Underfull \hbox (badness 1502) in paragraph at lines 759--776
+\OT1/cmr/m/n/10 port No.[] 06.3).  Re-trieved from Re-search on Poverty Al-le-v
+i-a-tion
+[8] [9]) [10] (./apacxmpl.aux)
+
+LaTeX Warning: There were undefined references.
+
+ )
+(see the transcript file for additional information)</usr/share/texlive/texmf-d
+ist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/share/texlive/texmf-dist/fo
+nts/type1/public/amsfonts/cm/cmbx9.pfb></usr/share/texlive/texmf-dist/fonts/typ
+e1/public/amsfonts/cm/cmr10.pfb></usr/share/texlive/texmf-dist/fonts/type1/publ
+ic/amsfonts/cm/cmr12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsf
+onts/cm/cmr17.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm
+/cmr9.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmss12.
+pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmss17.pfb></
+usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmss9.pfb></usr/sha
+re/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb></usr/share/tex
+live/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt10.pfb>
+Output written on apacxmpl.pdf (10 pages, 160311 bytes).
+Transcript written on apacxmpl.log.
+Latexmk: Getting log file 'apacxmpl.log'
+Latexmk: Examining 'apacxmpl.fls'
+Latexmk: Examining 'apacxmpl.log'
+Latexmk: Found input bbl file 'apacxmpl.bbl'
+Latexmk: Log file says output to 'apacxmpl.pdf'
+Latexmk: Found bibliography file(s):
+  ./apa5ex.bib
+Latexmk: applying rule 'bibtex apacxmpl'...
+Rule 'bibtex apacxmpl':  Reasons for rerun
+Changed files or newly in use/created:
+  apacxmpl.aux
+
+------------
+Run number 2 of rule 'bibtex apacxmpl'
+------------
+------------
+Running 'bibtex  "apacxmpl.aux"'
+------------
+This is BibTeX, Version 0.99d (TeX Live 2013)
+The top-level auxiliary file: apacxmpl.aux
+The style file: apacite.bst
+Database file #1: apa5ex.bib
+apacite.bst [2013/07/21 v6.03 APA bibliography style]
+Latexmk: applying rule 'pdflatex'...
+Rule 'pdflatex':  Reasons for rerun
+Changed files or newly in use/created:
+  apacxmpl.aux
+
+------------
+Run number 3 of rule 'pdflatex'
+------------
+------------
+Running 'pdflatex  -recorder  "apacxmpl.tex"'
+------------
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013)
+ restricted \write18 enabled.
+entering extended mode
+(./apacxmpl.tex
+LaTeX2e <2011/06/27>
+Babel <v3.8m> and hyphenation patterns for english, dumylang, nohyphenation, lo
+aded.
+(/usr/share/texlive/texmf-dist/tex/latex/base/article.cls
+Document Class: article 2007/10/19 v1.4h Standard LaTeX document class
+(/usr/share/texlive/texmf-dist/tex/latex/base/size10.clo))
+(/usr/share/texlive/texmf-dist/tex/latex/url/url.sty) (./apacite.sty)
+(./apacdoc.sty) (./apacxmpl.aux) (./english.apc) [1{/usr/share/texlive/texmf/fo
+nts/map/pdftex/updmap/pdftex.map}] [2] [3] [4] [5] (./apacxmpl.bbl [6] [7]
+Underfull \hbox (badness 1502) in paragraph at lines 759--776
+\OT1/cmr/m/n/10 port No.[] 06.3).  Re-trieved from Re-search on Poverty Al-le-v
+i-a-tion
+[8] [9]) [10] (./apacxmpl.aux) )
+(see the transcript file for additional information)</usr/share/texlive/texmf-d
+ist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/share/texlive/texmf-dist/fo
+nts/type1/public/amsfonts/cm/cmbx9.pfb></usr/share/texlive/texmf-dist/fonts/typ
+e1/public/amsfonts/cm/cmr10.pfb></usr/share/texlive/texmf-dist/fonts/type1/publ
+ic/amsfonts/cm/cmr12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsf
+onts/cm/cmr17.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm
+/cmr9.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmss12.
+pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmss17.pfb></
+usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmss9.pfb></usr/sha
+re/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb></usr/share/tex
+live/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt10.pfb>
+Output written on apacxmpl.pdf (10 pages, 162383 bytes).
+Transcript written on apacxmpl.log.
+Latexmk: Getting log file 'apacxmpl.log'
+Latexmk: Examining 'apacxmpl.fls'
+Latexmk: Examining 'apacxmpl.log'
+Latexmk: Found input bbl file 'apacxmpl.bbl'
+Latexmk: Found input bbl file 'apacxmpl.bbl'
+Latexmk: Log file says output to 'apacxmpl.pdf'
+Latexmk: Found bibliography file(s):
+  ./apa5ex.bib
+Latexmk: applying rule 'bibtex apacxmpl'...
+Rule 'bibtex apacxmpl':  Reasons for rerun
+Changed files or newly in use/created:
+  apacxmpl.aux
+
+------------
+Run number 3 of rule 'bibtex apacxmpl'
+------------
+------------
+Running 'bibtex  "apacxmpl.aux"'
+------------
+This is BibTeX, Version 0.99d (TeX Live 2013)
+The top-level auxiliary file: apacxmpl.aux
+The style file: apacite.bst
+Database file #1: apa5ex.bib
+apacite.bst [2013/07/21 v6.03 APA bibliography style]
+Latexmk: applying rule 'pdflatex'...
+Rule 'pdflatex':  Reasons for rerun
+Changed files or newly in use/created:
+  apacxmpl.aux
+
+------------
+Run number 4 of rule 'pdflatex'
+------------
+------------
+Running 'pdflatex  -recorder  "apacxmpl.tex"'
+------------
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013)
+ restricted \write18 enabled.
+entering extended mode
+(./apacxmpl.tex
+LaTeX2e <2011/06/27>
+Babel <v3.8m> and hyphenation patterns for english, dumylang, nohyphenation, lo
+aded.
+(/usr/share/texlive/texmf-dist/tex/latex/base/article.cls
+Document Class: article 2007/10/19 v1.4h Standard LaTeX document class
+(/usr/share/texlive/texmf-dist/tex/latex/base/size10.clo))
+(/usr/share/texlive/texmf-dist/tex/latex/url/url.sty) (./apacite.sty)
+(./apacdoc.sty) (./apacxmpl.aux) (./english.apc) [1{/usr/share/texlive/texmf/fo
+nts/map/pdftex/updmap/pdftex.map}] [2] [3] [4] [5] (./apacxmpl.bbl [6] [7]
+Underfull \hbox (badness 1502) in paragraph at lines 759--776
+\OT1/cmr/m/n/10 port No.[] 06.3).  Re-trieved from Re-search on Poverty Al-le-v
+i-a-tion
+[8] [9]) [10] (./apacxmpl.aux) )
+(see the transcript file for additional information)</usr/share/texlive/texmf-d
+ist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/share/texlive/texmf-dist/fo
+nts/type1/public/amsfonts/cm/cmbx9.pfb></usr/share/texlive/texmf-dist/fonts/typ
+e1/public/amsfonts/cm/cmr10.pfb></usr/share/texlive/texmf-dist/fonts/type1/publ
+ic/amsfonts/cm/cmr12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsf
+onts/cm/cmr17.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm
+/cmr9.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmss12.
+pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmss17.pfb></
+usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmss9.pfb></usr/sha
+re/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb></usr/share/tex
+live/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt10.pfb>
+Output written on apacxmpl.pdf (10 pages, 162383 bytes).
+Transcript written on apacxmpl.log.
+Latexmk: Getting log file 'apacxmpl.log'
+Latexmk: Examining 'apacxmpl.fls'
+Latexmk: Examining 'apacxmpl.log'
+Latexmk: Found input bbl file 'apacxmpl.bbl'
+Latexmk: Found input bbl file 'apacxmpl.bbl'
+Latexmk: Log file says output to 'apacxmpl.pdf'
+Latexmk: Found bibliography file(s):
+  ./apa5ex.bib
+Latexmk: All targets () are up-to-date
+
+No existing .aux file, so I'll make a simple one, and require run of *latex.
+Latexmk: applying rule 'pdflatex'...
+Rule 'pdflatex':  Reasons for rerun
+Category 'other':
+  Rerun of 'pdflatex' forced or previously required
+
+------------
+Run number 1 of rule 'pdflatex'
+------------
+------------
+Running 'pdflatex  -recorder  "main.tex"'
+------------
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013)
+ restricted \write18 enabled.
+entering extended mode
+(./main.tex
+LaTeX2e <2011/06/27>
+Babel <v3.8m> and hyphenation patterns for english, dumylang, nohyphenation, lo
+aded.
+(/usr/share/texlive/texmf-dist/tex/latex/base/article.cls
+Document Class: article 2007/10/19 v1.4h Standard LaTeX document class
+(/usr/share/texlive/texmf-dist/tex/latex/base/size10.clo)) (./cogsci.sty
+Conference Style for COGSCI -- last modified December 31, 2018
+) (/usr/share/texlive/texmf-dist/tex/latex/csquotes/csquotes.sty
+(/usr/share/texlive/texmf-dist/tex/latex/etoolbox/etoolbox.sty
+(/usr/share/texlive/texmf-dist/tex/latex/etex-pkg/etex.sty))
+(/usr/share/texlive/texmf-dist/tex/latex/graphics/keyval.sty)
+(/usr/share/texlive/texmf-dist/tex/latex/csquotes/csquotes.def)
+(/usr/share/texlive/texmf-dist/tex/latex/csquotes/csquotes.cfg))
+(/usr/share/texlive/texmf-dist/tex/latex/hyperref/hyperref.sty
+(/usr/share/texlive/texmf-dist/tex/generic/oberdiek/hobsub-hyperref.sty
+(/usr/share/texlive/texmf-dist/tex/generic/oberdiek/hobsub-generic.sty))
+(/usr/share/texlive/texmf-dist/tex/generic/ifxetex/ifxetex.sty)
+(/usr/share/texlive/texmf-dist/tex/latex/oberdiek/auxhook.sty)
+(/usr/share/texlive/texmf-dist/tex/latex/oberdiek/kvoptions.sty)
+(/usr/share/texlive/texmf-dist/tex/latex/hyperref/pd1enc.def)
+(/usr/share/texlive/texmf-dist/tex/latex/latexconfig/hyperref.cfg)
+(/usr/share/texlive/texmf-dist/tex/latex/url/url.sty))
+
+Package hyperref Message: Driver (autodetected): hpdftex.
+
+(/usr/share/texlive/texmf-dist/tex/latex/hyperref/hpdftex.def
+(/usr/share/texlive/texmf-dist/tex/latex/oberdiek/rerunfilecheck.sty))
+(/usr/share/texlive/texmf-dist/tex/latex/xcolor/xcolor.sty
+(/usr/share/texlive/texmf-dist/tex/latex/latexconfig/color.cfg)
+(/usr/share/texlive/texmf-dist/tex/latex/pdftex-def/pdftex.def))
+(/usr/share/texlive/texmf-dist/tex/latex/graphics/graphicx.sty
+(/usr/share/texlive/texmf-dist/tex/latex/graphics/graphics.sty
+(/usr/share/texlive/texmf-dist/tex/latex/graphics/trig.sty)
+(/usr/share/texlive/texmf-dist/tex/latex/latexconfig/graphics.cfg)))
+(/usr/share/texlive/texmf-dist/tex/latex/amsmath/amsmath.sty
+For additional information on amsmath, use the `?' option.
+(/usr/share/texlive/texmf-dist/tex/latex/amsmath/amstext.sty
+(/usr/share/texlive/texmf-dist/tex/latex/amsmath/amsgen.sty))
+(/usr/share/texlive/texmf-dist/tex/latex/amsmath/amsbsy.sty)
+(/usr/share/texlive/texmf-dist/tex/latex/amsmath/amsopn.sty))
+(/usr/share/texlive/texmf-dist/tex/latex/pslatex/pslatex.sty) (./apacite.sty)
+(/usr/share/texlive/texmf-dist/tex/latex/float/float.sty) (./main.aux)
+(/usr/share/texlive/texmf-dist/tex/latex/psnfss/omspzccm.fd)
+(/usr/share/texlive/texmf-dist/tex/latex/hyperref/nameref.sty
+(/usr/share/texlive/texmf-dist/tex/generic/oberdiek/gettitlestring.sty))
+(/usr/share/texlive/texmf-dist/tex/context/base/supp-pdf.mkii
+[Loading MPS to PDF converter (version 2006.09.02).]
+) (/usr/share/texlive/texmf-dist/tex/latex/oberdiek/epstopdf-base.sty
+(/usr/share/texlive/texmf-dist/tex/latex/oberdiek/grfext.sty)
+(/usr/share/texlive/texmf-dist/tex/latex/latexconfig/epstopdf-sys.cfg))
+(./english.apc) (/usr/share/texlive/texmf-dist/tex/latex/psnfss/ot1ptmcm.fd)
+(/usr/share/texlive/texmf-dist/tex/latex/psnfss/omlptmcm.fd)
+(/usr/share/texlive/texmf-dist/tex/latex/psnfss/omxpsycm.fd)
+Underfull \vbox (badness 10000) detected at line 79
+
+Underfull \hbox (badness 10000) in paragraph at lines 87--88
+[]\OT1/ptm/b/n/9 Code: [][]$\OT1/pcr/m/n/9 https :// github [] .com / julius []
+ -heitkoetter /
+
+LaTeX Warning: Citation `Collins2022StructuredFA' undefined on input line 95.
+
+
+LaTeX Warning: Citation `tenenbaum1999bayesian' undefined on input line 95.
+
+
+LaTeX Warning: Citation `2306.12672' undefined on input line 95.
+
+
+LaTeX Warning: Citation `battaglia2013simulation' undefined on input line 95.
+
+
+LaTeX Warning: Citation `zhang2023grounded' undefined on input line 95.
+
+
+LaTeX Warning: Reference `fig:workflow' on page 1 undefined on input line 99.
+
+<images/966_diagram2.png, id=15, 422.57875pt x 561.09625pt>
+<use images/966_diagram2.png>
+
+LaTeX Warning: Citation `fodor1975language' undefined on input line 115.
+
+
+LaTeX Warning: Citation `jackendoff1985semantics' undefined on input line 115.
+
+
+LaTeX Warning: Citation `van2012probabilistic' undefined on input line 115.
+
+
+LaTeX Warning: Citation `cooper2015probabilistic' undefined on input line 115.
+
+
+LaTeX Warning: Citation `goodman2015probabilistic' undefined on input line 115.
+
+
+
+LaTeX Warning: Citation `smith2013sources' undefined on input line 117.
+
+
+LaTeX Warning: Citation `smith2024intuitive' undefined on input line 117.
+
+[1{/usr/share/texlive/texmf/fonts/map/pdftex/updmap/pdftex.map}]
+
+LaTeX Warning: Citation `xue20233d' undefined on input line 119.
+
+<images/966_diagram1.pdf, id=66, 669.96379pt x 471.02629pt>
+<use images/966_diagram1.pdf>
+
+LaTeX Warning: Reference `app:visual_stimuli' on page 2 undefined on input line
+ 140.
+
+
+LaTeX Warning: Citation `bartsch1973semantics' undefined on input line 146.
+
+
+LaTeX Warning: Citation `gelman1978thechild' undefined on input line 146.
+
+
+LaTeX Warning: Citation `landau1993whence' undefined on input line 147.
+
+
+LaTeX Warning: Citation `montague1973proper' undefined on input line 148.
+
+
+LaTeX Warning: Citation `van2021probabilistic' undefined on input line 148.
+
+
+LaTeX Warning: Citation `barwise1981generalized' undefined on input line 148.
+
+
+LaTeX Warning: Citation `klein1980semantics' undefined on input line 149.
+
+
+LaTeX Warning: Citation `lassiter2017adjectival' undefined on input line 149.
+
+
+LaTeX Warning: Reference `app:language_stimuli' on page 2 undefined on input li
+ne 151.
+
+
+LaTeX Warning: Citation `likert1932technique' undefined on input line 157.
+
+
+LaTeX Warning: Reference `app:human_app' on page 2 undefined on input line 157.
+
+
+[2pdfTeX warning (ext4): destination with the same identifier (name{figure.1}) 
+has been already used, duplicate ignored
+
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+l.158 
+       <./images/966_diagram2.png>]
+
+LaTeX Warning: Citation `goodman2014concepts' undefined on input line 161.
+
+
+LaTeX Warning: Citation `doi:https://doi.org/10.1002/9781118882139.ch21' undefi
+ned on input line 161.
+
+
+LaTeX Warning: Citation `mamassian2002bayesian' undefined on input line 163.
+
+
+LaTeX Warning: Citation `series2013learning' undefined on input line 163.
+
+
+LaTeX Warning: Citation `dippl' undefined on input line 164.
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active [3pdfTeX w
+arning (ext4): destination with the same identifier (name{figure.2}) has been a
+lready used, duplicate ignored
+
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+l.165 
+       <./images/966_diagram1.pdf>]
+
+LaTeX Warning: Citation `2107.03374' undefined on input line 166.
+
+
+LaTeX Warning: Citation `brown2020language' undefined on input line 166.
+
+
+LaTeX Warning: Reference `app:NaLaPIPLLM_prompts' on page 4 undefined on input 
+line 166.
+
+
+LaTeX Warning: Citation `box2d' undefined on input line 168.
+
+
+LaTeX Warning: Reference `app:BaselineLLM_prompts' on page 4 undefined on input
+ line 172.
+
+
+LaTeX Warning: Citation `KIM2008517' undefined on input line 176.
+
+
+LaTeX Warning: Reference `eq:sigmoid' on page 4 undefined on input line 177.
+
+
+Underfull \vbox (badness 2772) has occurred while \output is active
+
+LaTeX Warning: Reference `table:free-parameters' on page 4 undefined on input l
+ine 182.
+
+
+Overfull \hbox (14.33589pt too wide) in paragraph at lines 186--199
+ [] 
+<images/stacked_violin_plot.png, id=242, 578.16pt x 578.16pt>
+<use images/stacked_violin_plot.png>
+<images/wasserstein_distance_by_runtime.png, id=243, 750.1626pt x 747.9945pt>
+<use images/wasserstein_distance_by_runtime.png>
+Overfull \hbox (9.7855pt too wide) in paragraph at lines 216--216
+ [][] 
+
+LaTeX Warning: Reference `fig:violin' on page 4 undefined on input line 234.
+
+
+LaTeX Warning: Reference `app:visual_stimuli' on page 4 undefined on input line
+ 234.
+
+[4pdfTeX warning (ext4): destination with the same identifier (name{table.1}) h
+as been already used, duplicate ignored
+
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+l.235 
+      ]
+
+LaTeX Warning: Reference `fig:wasserstein_distance_by_runtime' on page 5 undefi
+ned on input line 236.
+
+
+LaTeX Warning: Reference `app:additional_plots' on page 5 undefined on input li
+ne 238.
+
+[5pdfTeX warning (ext4): destination with the same identifier (name{figure.3}) 
+has been already used, duplicate ignored
+
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+l.243 
+       <./images/stacked_violin_plot.png> <./images/wasserstein_distance_by_run
+time.png>]
+<images/NaLaPIP_human_scatter_plot_with_deviations.png, id=285, 722.7pt x 722.7
+pt> <use images/NaLaPIP_human_scatter_plot_with_deviations.png>
+
+LaTeX Warning: Reference `fig:NaLaPIP_scatter_plot' on page 6 undefined on inpu
+t line 252.
+
+
+LaTeX Warning: Reference `fig:NaLaPIP_scatter_plot' on page 6 undefined on inpu
+t line 252.
+
+
+LaTeX Warning: Reference `app:additional_plots' on page 6 undefined on input li
+ne 254.
+
+
+LaTeX Warning: Citation `yi2018neural' undefined on input line 266.
+
+[6pdfTeX warning (ext4): destination with the same identifier (name{figure.4}) 
+has been already used, duplicate ignored
+
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+l.273 
+       <./images/NaLaPIP_human_scatter_plot_with_deviations.png>]
+No file main.bbl.
+[7]
+
+LaTeX Warning: Citation `de2023jspsych' undefined on input line 293.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 293--295
+
+<images/IMG_1108.jpeg, id=312, 1252.68pt x 1118.1775pt>
+<use images/IMG_1108.jpeg> [8 <./images/IMG_1108.jpeg>] [9] [10] [11]
+<images/ensemble0.png, id=354, 602.25pt x 501.875pt>
+<use images/ensemble0.png>
+<images/ensemble1.png, id=355, 602.25pt x 501.875pt>
+<use images/ensemble1.png>
+<images/ensemble2.png, id=356, 602.25pt x 501.875pt>
+<use images/ensemble2.png>
+<images/ensemble3.png, id=357, 602.25pt x 501.875pt>
+<use images/ensemble3.png> [12pdfTeX warning (ext4): destination with the same 
+identifier (name{figure.5}) has been already used, duplicate ignored
+
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+l.519 \newpage
+              pdfTeX warning (ext4): destination with the same identifier (name
+{figure.6}) has been already used, duplicate ignored
+
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+l.519 \newpage
+              pdfTeX warning (ext4): destination with the same identifier (name
+{figure.7}) has been already used, duplicate ignored
+
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+l.519 \newpage
+              pdfTeX warning (ext4): destination with the same identifier (name
+{figure.8}) has been already used, duplicate ignored
+
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+l.519 \newpage
+               <./images/ensemble0.png> <./images/ensemble1.png> <./images/ense
+mble2.png> <./images/ensemble3.png>]
+<images/ensemble4.png, id=371, 602.25pt x 501.875pt>
+<use images/ensemble4.png>
+<images/ensemble5.png, id=372, 602.25pt x 501.875pt>
+<use images/ensemble5.png>
+<images/ensemble6.png, id=373, 602.25pt x 501.875pt>
+<use images/ensemble6.png>
+<images/ensemble7.png, id=374, 602.25pt x 501.875pt>
+<use images/ensemble7.png> [13pdfTeX warning (ext4): destination with the same 
+identifier (name{figure.9}) has been already used, duplicate ignored
+
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+l.553 \newpage
+              pdfTeX warning (ext4): destination with the same identifier (name
+{figure.10}) has been already used, duplicate ignored
+
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+l.553 \newpage
+              pdfTeX warning (ext4): destination with the same identifier (name
+{figure.11}) has been already used, duplicate ignored
+
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+l.553 \newpage
+              pdfTeX warning (ext4): destination with the same identifier (name
+{figure.12}) has been already used, duplicate ignored
+
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+l.553 \newpage
+               <./images/ensemble4.png> <./images/ensemble5.png> <./images/ense
+mble6.png> <./images/ensemble7.png>]
+<images/LLM_human_scatter_plot_with_deviations.png, id=388, 722.7pt x 722.7pt>
+<use images/LLM_human_scatter_plot_with_deviations.png>
+<images/wasserstein_difference.png, id=389, 722.7pt x 578.16pt>
+<use images/wasserstein_difference.png>
+Overfull \hbox (15.17987pt too wide) in paragraph at lines 573--573
+ [][] 
+<images/wasserstein_distance.png, id=390, 867.24pt x 578.16pt>
+<use images/wasserstein_distance.png> [14pdfTeX warning (ext4): destination wit
+h the same identifier (name{figure.13}) has been already used, duplicate ignore
+d
+
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+l.586 \end{document}
+                    pdfTeX warning (ext4): destination with the same identifier
+ (name{figure.14}) has been already used, duplicate ignored
+
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+l.586 \end{document}
+                    pdfTeX warning (ext4): destination with the same identifier
+ (name{figure.15}) has been already used, duplicate ignored
+
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+l.586 \end{document}
+                     <./images/LLM_human_scatter_plot_with_deviations.png> <./i
+mages/wasserstein_difference.png> <./images/wasserstein_distance.png>]
+(./main.aux)
+
+Package rerunfilecheck Warning: File `main.out' has changed.
+(rerunfilecheck)                Rerun to get outlines right
+(rerunfilecheck)                or use package `bookmark'.
+
+
+LaTeX Warning: There were undefined references.
+
+
+LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
+
+ )
+(see the transcript file for additional information)pdfTeX warning (dest): name
+{cite.de2023jspsych} has been referenced but does not exist, replaced by a fixe
+d one
+
+pdfTeX warning (dest): name{cite.yi2018neural} has been referenced but does not
+ exist, replaced by a fixed one
+
+pdfTeX warning (dest): name{cite.KIM2008517} has been referenced but does not e
+xist, replaced by a fixed one
+
+pdfTeX warning (dest): name{cite.box2d} has been referenced but does not exist,
+ replaced by a fixed one
+
+pdfTeX warning (dest): name{cite.brown2020language} has been referenced but doe
+s not exist, replaced by a fixed one
+
+pdfTeX warning (dest): name{cite.2107.03374} has been referenced but does not e
+xist, replaced by a fixed one
+
+pdfTeX warning (dest): name{cite.dippl} has been referenced but does not exist,
+ replaced by a fixed one
+
+pdfTeX warning (dest): name{cite.series2013learning} has been referenced but do
+es not exist, replaced by a fixed one
+
+pdfTeX warning (dest): name{cite.mamassian2002bayesian} has been referenced but
+ does not exist, replaced by a fixed one
+
+pdfTeX warning (dest): name{cite.doi:https://doi.org/10.1002/9781118882139.ch21
+} has been referenced but does not exist, replaced by a fixed one
+
+pdfTeX warning (dest): name{cite.goodman2014concepts} has been referenced but d
+oes not exist, replaced by a fixed one
+
+pdfTeX warning (dest): name{cite.likert1932technique} has been referenced but d
+oes not exist, replaced by a fixed one
+
+pdfTeX warning (dest): name{cite.lassiter2017adjectival} has been referenced bu
+t does not exist, replaced by a fixed one
+
+pdfTeX warning (dest): name{cite.klein1980semantics} has been referenced but do
+es not exist, replaced by a fixed one
+
+pdfTeX warning (dest): name{cite.barwise1981generalized} has been referenced bu
+t does not exist, replaced by a fixed one
+
+pdfTeX warning (dest): name{cite.van2021probabilistic} has been referenced but 
+does not exist, replaced by a fixed one
+
+pdfTeX warning (dest): name{cite.montague1973proper} has been referenced but do
+es not exist, replaced by a fixed one
+
+pdfTeX warning (dest): name{cite.landau1993whence} has been referenced but does
+ not exist, replaced by a fixed one
+
+pdfTeX warning (dest): name{cite.gelman1978thechild} has been referenced but do
+es not exist, replaced by a fixed one
+
+pdfTeX warning (dest): name{cite.bartsch1973semantics} has been referenced but 
+does not exist, replaced by a fixed one
+
+pdfTeX warning (dest): name{cite.xue20233d} has been referenced but does not ex
+ist, replaced by a fixed one
+
+pdfTeX warning (dest): name{cite.smith2024intuitive} has been referenced but do
+es not exist, replaced by a fixed one
+
+pdfTeX warning (dest): name{cite.smith2013sources} has been referenced but does
+ not exist, replaced by a fixed one
+
+pdfTeX warning (dest): name{cite.goodman2015probabilistic} has been referenced 
+but does not exist, replaced by a fixed one
+
+pdfTeX warning (dest): name{cite.cooper2015probabilistic} has been referenced b
+ut does not exist, replaced by a fixed one
+
+pdfTeX warning (dest): name{cite.van2012probabilistic} has been referenced but 
+does not exist, replaced by a fixed one
+
+pdfTeX warning (dest): name{cite.jackendoff1985semantics} has been referenced b
+ut does not exist, replaced by a fixed one
+
+pdfTeX warning (dest): name{cite.fodor1975language} has been referenced but doe
+s not exist, replaced by a fixed one
+
+pdfTeX warning (dest): name{cite.zhang2023grounded} has been referenced but doe
+s not exist, replaced by a fixed one
+
+pdfTeX warning (dest): name{cite.battaglia2013simulation} has been referenced b
+ut does not exist, replaced by a fixed one
+
+pdfTeX warning (dest): name{cite.2306.12672} has been referenced but does not e
+xist, replaced by a fixed one
+
+pdfTeX warning (dest): name{cite.tenenbaum1999bayesian} has been referenced but
+ does not exist, replaced by a fixed one
+
+pdfTeX warning (dest): name{cite.Collins2022StructuredFA} has been referenced b
+ut does not exist, replaced by a fixed one
+
+{/usr/share/texlive/texmf-dist/fonts/enc/dvips/base/8r.enc}</usr/share/texlive/
+texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/share/texlive/texmf-
+dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/share/texlive/texmf-dist/fo
+nts/type1/public/amsfonts/cm/cmsy10.pfb></usr/share/texlive/texmf-dist/fonts/ty
+pe1/urw/courier/ucrr8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/symbo
+l/usyr.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/times/utmb8a.pfb></us
+r/share/texlive/texmf-dist/fonts/type1/urw/times/utmr8a.pfb></usr/share/texlive
+/texmf-dist/fonts/type1/urw/times/utmri8a.pfb>
+Output written on main.pdf (14 pages, 1162924 bytes).
+Transcript written on main.log.
+Latexmk: Getting log file 'main.log'
+Latexmk: Examining 'main.fls'
+Latexmk: Examining 'main.log'
+Latexmk: References changed.
+Latexmk: References changed.
+Latexmk: Log file says output to 'main.pdf'
+Latexmk: Found bibliography file(s):
+  ./source.bib
+Latexmk: applying rule 'bibtex main'...
+Rule 'bibtex main':  Reasons for rerun
+Category 'other':
+  Rerun of 'bibtex main' forced or previously required
+
+------------
+Run number 1 of rule 'bibtex main'
+------------
+------------
+Running 'bibtex  "main.aux"'
+------------
+This is BibTeX, Version 0.99d (TeX Live 2013)
+The top-level auxiliary file: main.aux
+The style file: apacite.bst
+Database file #1: source.bib
+apacite.bst [2013/07/21 v6.03 APA bibliography style]
+Warning--No address in goodman2014concepts
+Warning--No journal in smith2024intuitive
+(There were 2 warnings)
+Latexmk: applying rule 'pdflatex'...
+Rule 'pdflatex':  Reasons for rerun
+Changed files or newly in use/created:
+  main.aux
+  main.bbl
+  main.out
+
+------------
+Run number 2 of rule 'pdflatex'
+------------
+------------
+Running 'pdflatex  -recorder  "main.tex"'
+------------
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013)
+ restricted \write18 enabled.
+entering extended mode
+(./main.tex
+LaTeX2e <2011/06/27>
+Babel <v3.8m> and hyphenation patterns for english, dumylang, nohyphenation, lo
+aded.
+(/usr/share/texlive/texmf-dist/tex/latex/base/article.cls
+Document Class: article 2007/10/19 v1.4h Standard LaTeX document class
+(/usr/share/texlive/texmf-dist/tex/latex/base/size10.clo)) (./cogsci.sty
+Conference Style for COGSCI -- last modified December 31, 2018
+) (/usr/share/texlive/texmf-dist/tex/latex/csquotes/csquotes.sty
+(/usr/share/texlive/texmf-dist/tex/latex/etoolbox/etoolbox.sty
+(/usr/share/texlive/texmf-dist/tex/latex/etex-pkg/etex.sty))
+(/usr/share/texlive/texmf-dist/tex/latex/graphics/keyval.sty)
+(/usr/share/texlive/texmf-dist/tex/latex/csquotes/csquotes.def)
+(/usr/share/texlive/texmf-dist/tex/latex/csquotes/csquotes.cfg))
+(/usr/share/texlive/texmf-dist/tex/latex/hyperref/hyperref.sty
+(/usr/share/texlive/texmf-dist/tex/generic/oberdiek/hobsub-hyperref.sty
+(/usr/share/texlive/texmf-dist/tex/generic/oberdiek/hobsub-generic.sty))
+(/usr/share/texlive/texmf-dist/tex/generic/ifxetex/ifxetex.sty)
+(/usr/share/texlive/texmf-dist/tex/latex/oberdiek/auxhook.sty)
+(/usr/share/texlive/texmf-dist/tex/latex/oberdiek/kvoptions.sty)
+(/usr/share/texlive/texmf-dist/tex/latex/hyperref/pd1enc.def)
+(/usr/share/texlive/texmf-dist/tex/latex/latexconfig/hyperref.cfg)
+(/usr/share/texlive/texmf-dist/tex/latex/url/url.sty))
+
+Package hyperref Message: Driver (autodetected): hpdftex.
+
+(/usr/share/texlive/texmf-dist/tex/latex/hyperref/hpdftex.def
+(/usr/share/texlive/texmf-dist/tex/latex/oberdiek/rerunfilecheck.sty))
+(/usr/share/texlive/texmf-dist/tex/latex/xcolor/xcolor.sty
+(/usr/share/texlive/texmf-dist/tex/latex/latexconfig/color.cfg)
+(/usr/share/texlive/texmf-dist/tex/latex/pdftex-def/pdftex.def))
+(/usr/share/texlive/texmf-dist/tex/latex/graphics/graphicx.sty
+(/usr/share/texlive/texmf-dist/tex/latex/graphics/graphics.sty
+(/usr/share/texlive/texmf-dist/tex/latex/graphics/trig.sty)
+(/usr/share/texlive/texmf-dist/tex/latex/latexconfig/graphics.cfg)))
+(/usr/share/texlive/texmf-dist/tex/latex/amsmath/amsmath.sty
+For additional information on amsmath, use the `?' option.
+(/usr/share/texlive/texmf-dist/tex/latex/amsmath/amstext.sty
+(/usr/share/texlive/texmf-dist/tex/latex/amsmath/amsgen.sty))
+(/usr/share/texlive/texmf-dist/tex/latex/amsmath/amsbsy.sty)
+(/usr/share/texlive/texmf-dist/tex/latex/amsmath/amsopn.sty))
+(/usr/share/texlive/texmf-dist/tex/latex/pslatex/pslatex.sty) (./apacite.sty)
+(/usr/share/texlive/texmf-dist/tex/latex/float/float.sty) (./main.aux
+
+LaTeX Warning: Label `table:llama70B-fixed-deceiver-correlation' multiply defin
+ed.
+
+
+LaTeX Warning: Label `table:gpt35-fixed-deceiver-correlation' multiply defined.
+
+
+
+LaTeX Warning: Label `table:llama70B-fixed-deceiver-correlation' multiply defin
+ed.
+
+
+LaTeX Warning: Label `table:gpt35-fixed-deceiver-correlation' multiply defined.
+
+
+
+LaTeX Warning: Label `fig:violin' multiply defined.
+
+
+LaTeX Warning: Label `fig:wasserstein_distance_by_runtime' multiply defined.
+
+
+LaTeX Warning: Label `fig:wasserstein_distance_by_runtime' multiply defined.
+
+) (/usr/share/texlive/texmf-dist/tex/latex/psnfss/omspzccm.fd)
+(/usr/share/texlive/texmf-dist/tex/latex/hyperref/nameref.sty
+(/usr/share/texlive/texmf-dist/tex/generic/oberdiek/gettitlestring.sty))
+(./main.out) (./main.out)
+(/usr/share/texlive/texmf-dist/tex/context/base/supp-pdf.mkii
+[Loading MPS to PDF converter (version 2006.09.02).]
+) (/usr/share/texlive/texmf-dist/tex/latex/oberdiek/epstopdf-base.sty
+(/usr/share/texlive/texmf-dist/tex/latex/oberdiek/grfext.sty)
+(/usr/share/texlive/texmf-dist/tex/latex/latexconfig/epstopdf-sys.cfg))
+(./english.apc) (/usr/share/texlive/texmf-dist/tex/latex/psnfss/ot1ptmcm.fd)
+(/usr/share/texlive/texmf-dist/tex/latex/psnfss/omlptmcm.fd)
+(/usr/share/texlive/texmf-dist/tex/latex/psnfss/omxpsycm.fd)
+Underfull \vbox (badness 10000) detected at line 79
+
+Underfull \hbox (badness 10000) in paragraph at lines 87--88
+[]\OT1/ptm/b/n/9 Code: [][]$\OT1/pcr/m/n/9 https :// github [] .com / julius []
+ -heitkoetter /
+
+LaTeX Warning: Citation `Collins2022StructuredFA' undefined on input line 95.
+
+
+LaTeX Warning: Citation `tenenbaum1999bayesian' undefined on input line 95.
+
+
+LaTeX Warning: Citation `2306.12672' undefined on input line 95.
+
+
+LaTeX Warning: Citation `battaglia2013simulation' undefined on input line 95.
+
+
+LaTeX Warning: Citation `zhang2023grounded' undefined on input line 95.
+
+<images/966_diagram2.png, id=100, 422.57875pt x 561.09625pt>
+<use images/966_diagram2.png>
+
+LaTeX Warning: Citation `fodor1975language' undefined on input line 115.
+
+
+LaTeX Warning: Citation `jackendoff1985semantics' undefined on input line 115.
+
+
+LaTeX Warning: Citation `van2012probabilistic' undefined on input line 115.
+
+
+LaTeX Warning: Citation `cooper2015probabilistic' undefined on input line 115.
+
+
+LaTeX Warning: Citation `goodman2015probabilistic' undefined on input line 115.
+
+
+
+LaTeX Warning: Citation `smith2013sources' undefined on input line 117.
+
+
+LaTeX Warning: Citation `smith2024intuitive' undefined on input line 117.
+
+[1{/usr/share/texlive/texmf/fonts/map/pdftex/updmap/pdftex.map}]
+
+LaTeX Warning: Citation `xue20233d' undefined on input line 119.
+
+<images/966_diagram1.pdf, id=150, 669.96379pt x 471.02629pt>
+<use images/966_diagram1.pdf>
+
+LaTeX Warning: Citation `bartsch1973semantics' undefined on input line 146.
+
+
+LaTeX Warning: Citation `gelman1978thechild' undefined on input line 146.
+
+
+LaTeX Warning: Citation `landau1993whence' undefined on input line 147.
+
+
+LaTeX Warning: Citation `montague1973proper' undefined on input line 148.
+
+
+LaTeX Warning: Citation `van2021probabilistic' undefined on input line 148.
+
+
+LaTeX Warning: Citation `barwise1981generalized' undefined on input line 148.
+
+
+LaTeX Warning: Citation `klein1980semantics' undefined on input line 149.
+
+
+LaTeX Warning: Citation `lassiter2017adjectival' undefined on input line 149.
+
+
+LaTeX Warning: Citation `likert1932technique' undefined on input line 157.
+
+[2pdfTeX warning (ext4): destination with the same identifier (name{figure.1}) 
+has been already used, duplicate ignored
+
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+l.158 
+       <./images/966_diagram2.png>]
+
+LaTeX Warning: Citation `goodman2014concepts' undefined on input line 161.
+
+
+LaTeX Warning: Citation `doi:https://doi.org/10.1002/9781118882139.ch21' undefi
+ned on input line 161.
+
+
+LaTeX Warning: Citation `mamassian2002bayesian' undefined on input line 163.
+
+
+LaTeX Warning: Citation `series2013learning' undefined on input line 163.
+
+
+LaTeX Warning: Citation `dippl' undefined on input line 164.
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active [3pdfTeX w
+arning (ext4): destination with the same identifier (name{figure.2}) has been a
+lready used, duplicate ignored
+
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+l.165 
+       <./images/966_diagram1.pdf>]
+
+LaTeX Warning: Citation `2107.03374' undefined on input line 166.
+
+
+LaTeX Warning: Citation `brown2020language' undefined on input line 166.
+
+
+LaTeX Warning: Citation `box2d' undefined on input line 168.
+
+
+LaTeX Warning: Citation `KIM2008517' undefined on input line 176.
+
+
+Overfull \hbox (14.33589pt too wide) in paragraph at lines 186--199
+ [] 
+<images/stacked_violin_plot.png, id=327, 578.16pt x 578.16pt>
+<use images/stacked_violin_plot.png>
+<images/wasserstein_distance_by_runtime.png, id=328, 750.1626pt x 747.9945pt>
+<use images/wasserstein_distance_by_runtime.png>
+Overfull \hbox (9.7855pt too wide) in paragraph at lines 216--216
+ [][] 
+
+Package hyperref Warning: Suppressing empty link on input line 234.
+
+[4pdfTeX warning (ext4): destination with the same identifier (name{table.1}) h
+as been already used, duplicate ignored
+
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+l.235 
+      ]
+
+Package hyperref Warning: Suppressing empty link on input line 236.
+
+[5pdfTeX warning (ext4): destination with the same identifier (name{figure.3}) 
+has been already used, duplicate ignored
+
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+l.243 
+       <./images/stacked_violin_plot.png> <./images/wasserstein_distance_by_run
+time.png>]
+<images/NaLaPIP_human_scatter_plot_with_deviations.png, id=368, 722.7pt x 722.7
+pt> <use images/NaLaPIP_human_scatter_plot_with_deviations.png>
+
+LaTeX Warning: Citation `yi2018neural' undefined on input line 266.
+
+[6pdfTeX warning (ext4): destination with the same identifier (name{figure.4}) 
+has been already used, duplicate ignored
+
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+l.273 
+       <./images/NaLaPIP_human_scatter_plot_with_deviations.png>] (./main.bbl
+! Misplaced alignment tab character &.
+<argument> John Wiley &
+                        Sons, Ltd
+l.365 ...ddressPublisher{}{John Wiley & Sons, Ltd}
+                                                  .
+? 
+Underfull \hbox (badness 1048) in paragraph at lines 351--374
+\OT1/ptm/m/it/10 the-ory \OT1/ptm/m/n/10 (p.[] 655-686).  John Wi-ley  Sons, Lt
+d.  Re-
+
+Underfull \hbox (badness 10000) in paragraph at lines 466--488
+[][]$\OT1/pcr/m/n/10 https :// www [] .sciencedirect [] .com / science / articl
+e /
+
+Underfull \vbox (badness 1043) has occurred while \output is active [7])
+[8]
+
+LaTeX Warning: Citation `de2023jspsych' undefined on input line 293.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 293--295
+
+<images/IMG_1108.jpeg, id=408, 1252.68pt x 1118.1775pt>
+<use images/IMG_1108.jpeg> [9 <./images/IMG_1108.jpeg>] [10] [11] [12]
+<images/ensemble0.png, id=445, 602.25pt x 501.875pt>
+<use images/ensemble0.png>
+<images/ensemble1.png, id=446, 602.25pt x 501.875pt>
+<use images/ensemble1.png>
+<images/ensemble2.png, id=447, 602.25pt x 501.875pt>
+<use images/ensemble2.png>
+<images/ensemble3.png, id=448, 602.25pt x 501.875pt>
+<use images/ensemble3.png> [13pdfTeX warning (ext4): destination with the same 
+identifier (name{figure.5}) has been already used, duplicate ignored
+
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+l.519 \newpage
+              pdfTeX warning (ext4): destination with the same identifier (name
+{figure.6}) has been already used, duplicate ignored
+
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+l.519 \newpage
+              pdfTeX warning (ext4): destination with the same identifier (name
+{figure.7}) has been already used, duplicate ignored
+
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+l.519 \newpage
+              pdfTeX warning (ext4): destination with the same identifier (name
+{figure.8}) has been already used, duplicate ignored
+
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+l.519 \newpage
+               <./images/ensemble0.png> <./images/ensemble1.png> <./images/ense
+mble2.png> <./images/ensemble3.png>]
+<images/ensemble4.png, id=462, 602.25pt x 501.875pt>
+<use images/ensemble4.png>
+<images/ensemble5.png, id=463, 602.25pt x 501.875pt>
+<use images/ensemble5.png>
+<images/ensemble6.png, id=464, 602.25pt x 501.875pt>
+<use images/ensemble6.png>
+<images/ensemble7.png, id=465, 602.25pt x 501.875pt>
+<use images/ensemble7.png> [14pdfTeX warning (ext4): destination with the same 
+identifier (name{figure.9}) has been already used, duplicate ignored
+
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+l.553 \newpage
+              pdfTeX warning (ext4): destination with the same identifier (name
+{figure.10}) has been already used, duplicate ignored
+
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+l.553 \newpage
+              pdfTeX warning (ext4): destination with the same identifier (name
+{figure.11}) has been already used, duplicate ignored
+
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+l.553 \newpage
+              pdfTeX warning (ext4): destination with the same identifier (name
+{figure.12}) has been already used, duplicate ignored
+
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+l.553 \newpage
+               <./images/ensemble4.png> <./images/ensemble5.png> <./images/ense
+mble6.png> <./images/ensemble7.png>]
+<images/LLM_human_scatter_plot_with_deviations.png, id=478, 722.7pt x 722.7pt>
+<use images/LLM_human_scatter_plot_with_deviations.png>
+<images/wasserstein_difference.png, id=479, 722.7pt x 578.16pt>
+<use images/wasserstein_difference.png>
+Overfull \hbox (15.17987pt too wide) in paragraph at lines 573--573
+ [][] 
+<images/wasserstein_distance.png, id=480, 867.24pt x 578.16pt>
+<use images/wasserstein_distance.png> [15pdfTeX warning (ext4): destination wit
+h the same identifier (name{figure.13}) has been already used, duplicate ignore
+d
+
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+l.586 \end{document}
+                    pdfTeX warning (ext4): destination with the same identifier
+ (name{figure.14}) has been already used, duplicate ignored
+
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+l.586 \end{document}
+                    pdfTeX warning (ext4): destination with the same identifier
+ (name{figure.15}) has been already used, duplicate ignored
+
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+l.586 \end{document}
+                     <./images/LLM_human_scatter_plot_with_deviations.png> <./i
+mages/wasserstein_difference.png> <./images/wasserstein_distance.png>]
+(./main.aux)
+
+Package rerunfilecheck Warning: File `main.out' has changed.
+(rerunfilecheck)                Rerun to get outlines right
+(rerunfilecheck)                or use package `bookmark'.
+
+
+LaTeX Warning: There were undefined references.
+
+
+LaTeX Warning: There were multiply-defined labels.
+
+ ){/usr/share/texlive/texmf-dist/fonts/enc/dvips/base/8r.enc}</usr/share/texliv
+e/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/share/texlive/texm
+f-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/share/texlive/texmf-dist/
+fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/share/texlive/texmf-dist/fonts/
+type1/urw/courier/ucrr8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/sym
+bol/usyr.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/times/utmb8a.pfb></
+usr/share/texlive/texmf-dist/fonts/type1/urw/times/utmr8a.pfb></usr/share/texli
+ve/texmf-dist/fonts/type1/urw/times/utmri8a.pfb>
+Output written on main.pdf (15 pages, 1178134 bytes).
+Transcript written on main.log.
+Latexmk: Getting log file 'main.log'
+Latexmk: Examining 'main.fls'
+Latexmk: Examining 'main.log'
+Latexmk: Found input bbl file 'main.bbl'
+Latexmk: References changed.
+Latexmk: Log file says output to 'main.pdf'
+Latexmk: Found bibliography file(s):
+  ./source.bib
+Latexmk: applying rule 'bibtex main'...
+Rule 'bibtex main':  Reasons for rerun
+Changed files or newly in use/created:
+  main.aux
+
+------------
+Run number 2 of rule 'bibtex main'
+------------
+------------
+Running 'bibtex  "main.aux"'
+------------
+This is BibTeX, Version 0.99d (TeX Live 2013)
+The top-level auxiliary file: main.aux
+The style file: apacite.bst
+Database file #1: source.bib
+apacite.bst [2013/07/21 v6.03 APA bibliography style]
+Warning--No address in goodman2014concepts
+Warning--No journal in smith2024intuitive
+(There were 2 warnings)
+Latexmk: applying rule 'pdflatex'...
+Rule 'pdflatex':  Reasons for rerun
+Changed files or newly in use/created:
+  main.aux
+  main.out
+
+------------
+Run number 3 of rule 'pdflatex'
+------------
+------------
+Running 'pdflatex  -recorder  "main.tex"'
+------------
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013)
+ restricted \write18 enabled.
+entering extended mode
+(./main.tex
+LaTeX2e <2011/06/27>
+Babel <v3.8m> and hyphenation patterns for english, dumylang, nohyphenation, lo
+aded.
+(/usr/share/texlive/texmf-dist/tex/latex/base/article.cls
+Document Class: article 2007/10/19 v1.4h Standard LaTeX document class
+(/usr/share/texlive/texmf-dist/tex/latex/base/size10.clo)) (./cogsci.sty
+Conference Style for COGSCI -- last modified December 31, 2018
+) (/usr/share/texlive/texmf-dist/tex/latex/csquotes/csquotes.sty
+(/usr/share/texlive/texmf-dist/tex/latex/etoolbox/etoolbox.sty
+(/usr/share/texlive/texmf-dist/tex/latex/etex-pkg/etex.sty))
+(/usr/share/texlive/texmf-dist/tex/latex/graphics/keyval.sty)
+(/usr/share/texlive/texmf-dist/tex/latex/csquotes/csquotes.def)
+(/usr/share/texlive/texmf-dist/tex/latex/csquotes/csquotes.cfg))
+(/usr/share/texlive/texmf-dist/tex/latex/hyperref/hyperref.sty
+(/usr/share/texlive/texmf-dist/tex/generic/oberdiek/hobsub-hyperref.sty
+(/usr/share/texlive/texmf-dist/tex/generic/oberdiek/hobsub-generic.sty))
+(/usr/share/texlive/texmf-dist/tex/generic/ifxetex/ifxetex.sty)
+(/usr/share/texlive/texmf-dist/tex/latex/oberdiek/auxhook.sty)
+(/usr/share/texlive/texmf-dist/tex/latex/oberdiek/kvoptions.sty)
+(/usr/share/texlive/texmf-dist/tex/latex/hyperref/pd1enc.def)
+(/usr/share/texlive/texmf-dist/tex/latex/latexconfig/hyperref.cfg)
+(/usr/share/texlive/texmf-dist/tex/latex/url/url.sty))
+
+Package hyperref Message: Driver (autodetected): hpdftex.
+
+(/usr/share/texlive/texmf-dist/tex/latex/hyperref/hpdftex.def
+(/usr/share/texlive/texmf-dist/tex/latex/oberdiek/rerunfilecheck.sty))
+(/usr/share/texlive/texmf-dist/tex/latex/xcolor/xcolor.sty
+(/usr/share/texlive/texmf-dist/tex/latex/latexconfig/color.cfg)
+(/usr/share/texlive/texmf-dist/tex/latex/pdftex-def/pdftex.def))
+(/usr/share/texlive/texmf-dist/tex/latex/graphics/graphicx.sty
+(/usr/share/texlive/texmf-dist/tex/latex/graphics/graphics.sty
+(/usr/share/texlive/texmf-dist/tex/latex/graphics/trig.sty)
+(/usr/share/texlive/texmf-dist/tex/latex/latexconfig/graphics.cfg)))
+(/usr/share/texlive/texmf-dist/tex/latex/amsmath/amsmath.sty
+For additional information on amsmath, use the `?' option.
+(/usr/share/texlive/texmf-dist/tex/latex/amsmath/amstext.sty
+(/usr/share/texlive/texmf-dist/tex/latex/amsmath/amsgen.sty))
+(/usr/share/texlive/texmf-dist/tex/latex/amsmath/amsbsy.sty)
+(/usr/share/texlive/texmf-dist/tex/latex/amsmath/amsopn.sty))
+(/usr/share/texlive/texmf-dist/tex/latex/pslatex/pslatex.sty) (./apacite.sty)
+(/usr/share/texlive/texmf-dist/tex/latex/float/float.sty) (./main.aux
+
+LaTeX Warning: Label `table:llama70B-fixed-deceiver-correlation' multiply defin
+ed.
+
+
+LaTeX Warning: Label `table:gpt35-fixed-deceiver-correlation' multiply defined.
+
+
+
+LaTeX Warning: Label `table:llama70B-fixed-deceiver-correlation' multiply defin
+ed.
+
+
+LaTeX Warning: Label `table:gpt35-fixed-deceiver-correlation' multiply defined.
+
+
+
+LaTeX Warning: Label `fig:violin' multiply defined.
+
+
+LaTeX Warning: Label `fig:wasserstein_distance_by_runtime' multiply defined.
+
+
+LaTeX Warning: Label `fig:wasserstein_distance_by_runtime' multiply defined.
+
+) (/usr/share/texlive/texmf-dist/tex/latex/psnfss/omspzccm.fd)
+(/usr/share/texlive/texmf-dist/tex/latex/hyperref/nameref.sty
+(/usr/share/texlive/texmf-dist/tex/generic/oberdiek/gettitlestring.sty))
+(./main.out) (./main.out)
+(/usr/share/texlive/texmf-dist/tex/context/base/supp-pdf.mkii
+[Loading MPS to PDF converter (version 2006.09.02).]
+) (/usr/share/texlive/texmf-dist/tex/latex/oberdiek/epstopdf-base.sty
+(/usr/share/texlive/texmf-dist/tex/latex/oberdiek/grfext.sty)
+(/usr/share/texlive/texmf-dist/tex/latex/latexconfig/epstopdf-sys.cfg))
+(./english.apc) (/usr/share/texlive/texmf-dist/tex/latex/psnfss/ot1ptmcm.fd)
+(/usr/share/texlive/texmf-dist/tex/latex/psnfss/omlptmcm.fd)
+(/usr/share/texlive/texmf-dist/tex/latex/psnfss/omxpsycm.fd)
+Underfull \vbox (badness 10000) detected at line 79
+
+Underfull \hbox (badness 10000) in paragraph at lines 87--88
+[]\OT1/ptm/b/n/9 Code: [][]$\OT1/pcr/m/n/9 https :// github [] .com / julius []
+ -heitkoetter /
+<images/966_diagram2.png, id=104, 422.57875pt x 561.09625pt>
+<use images/966_diagram2.png> [1{/usr/share/texlive/texmf/fonts/map/pdftex/updm
+ap/pdftex.map}] <images/966_diagram1.pdf, id=161, 669.96379pt x 471.02629pt>
+<use images/966_diagram1.pdf> [2pdfTeX warning (ext4): destination with the sam
+e identifier (name{figure.1}) has been already used, duplicate ignored
+
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+l.150 \end{enumerate}
+                      <./images/966_diagram2.png>] [3pdfTeX warning (ext4): des
+tination with the same identifier (name{figure.2}) has been already used, dupli
+cate ignored
+
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+l.162 
+       <./images/966_diagram1.pdf>]
+Underfull \vbox (badness 1975) has occurred while \output is active
+Overfull \hbox (14.33589pt too wide) in paragraph at lines 186--199
+ [] 
+<images/stacked_violin_plot.png, id=346, 578.16pt x 578.16pt>
+<use images/stacked_violin_plot.png>
+<images/wasserstein_distance_by_runtime.png, id=347, 750.1626pt x 747.9945pt>
+<use images/wasserstein_distance_by_runtime.png>
+Overfull \hbox (9.7855pt too wide) in paragraph at lines 216--216
+ [][] 
+[4pdfTeX warning (ext4): destination with the same identifier (name{table.1}) h
+as been already used, duplicate ignored
+
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+l.227 \end{enumerate}
+                     ]
+
+Package hyperref Warning: Suppressing empty link on input line 234.
+
+
+Package hyperref Warning: Suppressing empty link on input line 236.
+
+[5pdfTeX warning (ext4): destination with the same identifier (name{figure.3}) 
+has been already used, duplicate ignored
+
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+l.239 
+       <./images/stacked_violin_plot.png> <./images/wasserstein_distance_by_run
+time.png>]
+<images/NaLaPIP_human_scatter_plot_with_deviations.png, id=390, 722.7pt x 722.7
+pt> <use images/NaLaPIP_human_scatter_plot_with_deviations.png> [6pdfTeX warnin
+g (ext4): destination with the same identifier (name{figure.4}) has been alread
+y used, duplicate ignored
+
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+l.269 
+       <./images/NaLaPIP_human_scatter_plot_with_deviations.png>] (./main.bbl
+! Misplaced alignment tab character &.
+<argument> John Wiley &
+                        Sons, Ltd
+l.365 ...ddressPublisher{}{John Wiley & Sons, Ltd}
+                                                  .
+? 
+Underfull \hbox (badness 1048) in paragraph at lines 351--374
+\OT1/ptm/m/it/10 the-ory \OT1/ptm/m/n/10 (p.[] 655-686).  John Wi-ley  Sons, Lt
+d.  Re-
+
+Underfull \hbox (badness 10000) in paragraph at lines 466--488
+[][]$\OT1/pcr/m/n/10 https :// www [] .sciencedirect [] .com / science / articl
+e /
+
+Underfull \vbox (badness 1264) has occurred while \output is active [7])
+[8]
+Underfull \hbox (badness 10000) in paragraph at lines 293--295
+
+<images/IMG_1108.jpeg, id=430, 1252.68pt x 1118.1775pt>
+<use images/IMG_1108.jpeg> [9 <./images/IMG_1108.jpeg>] [10] [11] [12]
+<images/ensemble0.png, id=467, 602.25pt x 501.875pt>
+<use images/ensemble0.png>
+<images/ensemble1.png, id=468, 602.25pt x 501.875pt>
+<use images/ensemble1.png>
+<images/ensemble2.png, id=469, 602.25pt x 501.875pt>
+<use images/ensemble2.png>
+<images/ensemble3.png, id=470, 602.25pt x 501.875pt>
+<use images/ensemble3.png> [13pdfTeX warning (ext4): destination with the same 
+identifier (name{figure.5}) has been already used, duplicate ignored
+
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+l.519 \newpage
+              pdfTeX warning (ext4): destination with the same identifier (name
+{figure.6}) has been already used, duplicate ignored
+
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+l.519 \newpage
+              pdfTeX warning (ext4): destination with the same identifier (name
+{figure.7}) has been already used, duplicate ignored
+
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+l.519 \newpage
+              pdfTeX warning (ext4): destination with the same identifier (name
+{figure.8}) has been already used, duplicate ignored
+
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+l.519 \newpage
+               <./images/ensemble0.png> <./images/ensemble1.png> <./images/ense
+mble2.png> <./images/ensemble3.png>]
+<images/ensemble4.png, id=484, 602.25pt x 501.875pt>
+<use images/ensemble4.png>
+<images/ensemble5.png, id=485, 602.25pt x 501.875pt>
+<use images/ensemble5.png>
+<images/ensemble6.png, id=486, 602.25pt x 501.875pt>
+<use images/ensemble6.png>
+<images/ensemble7.png, id=487, 602.25pt x 501.875pt>
+<use images/ensemble7.png> [14pdfTeX warning (ext4): destination with the same 
+identifier (name{figure.9}) has been already used, duplicate ignored
+
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+l.553 \newpage
+              pdfTeX warning (ext4): destination with the same identifier (name
+{figure.10}) has been already used, duplicate ignored
+
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+l.553 \newpage
+              pdfTeX warning (ext4): destination with the same identifier (name
+{figure.11}) has been already used, duplicate ignored
+
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+l.553 \newpage
+              pdfTeX warning (ext4): destination with the same identifier (name
+{figure.12}) has been already used, duplicate ignored
+
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+l.553 \newpage
+               <./images/ensemble4.png> <./images/ensemble5.png> <./images/ense
+mble6.png> <./images/ensemble7.png>]
+<images/LLM_human_scatter_plot_with_deviations.png, id=500, 722.7pt x 722.7pt>
+<use images/LLM_human_scatter_plot_with_deviations.png>
+<images/wasserstein_difference.png, id=501, 722.7pt x 578.16pt>
+<use images/wasserstein_difference.png>
+Overfull \hbox (15.17987pt too wide) in paragraph at lines 573--573
+ [][] 
+<images/wasserstein_distance.png, id=502, 867.24pt x 578.16pt>
+<use images/wasserstein_distance.png> [15pdfTeX warning (ext4): destination wit
+h the same identifier (name{figure.13}) has been already used, duplicate ignore
+d
+
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+l.586 \end{document}
+                    pdfTeX warning (ext4): destination with the same identifier
+ (name{figure.14}) has been already used, duplicate ignored
+
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+l.586 \end{document}
+                    pdfTeX warning (ext4): destination with the same identifier
+ (name{figure.15}) has been already used, duplicate ignored
+
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+l.586 \end{document}
+                     <./images/LLM_human_scatter_plot_with_deviations.png> <./i
+mages/wasserstein_difference.png> <./images/wasserstein_distance.png>]
+(./main.aux)
+
+LaTeX Warning: There were multiply-defined labels.
+
+ ){/usr/share/texlive/texmf-dist/fonts/enc/dvips/base/8r.enc}</usr/share/texliv
+e/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/share/texlive/texm
+f-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/share/texlive/texmf-dist/
+fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/share/texlive/texmf-dist/fonts/
+type1/urw/courier/ucrr8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/sym
+bol/usyr.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/times/utmb8a.pfb></
+usr/share/texlive/texmf-dist/fonts/type1/urw/times/utmr8a.pfb></usr/share/texli
+ve/texmf-dist/fonts/type1/urw/times/utmri8a.pfb>
+Output written on main.pdf (15 pages, 1179955 bytes).
+Transcript written on main.log.
+Latexmk: Getting log file 'main.log'
+Latexmk: Examining 'main.fls'
+Latexmk: Examining 'main.log'
+Latexmk: Found input bbl file 'main.bbl'
+Latexmk: Log file says output to 'main.pdf'
+Latexmk: Found bibliography file(s):
+  ./source.bib
+Latexmk: applying rule 'bibtex main'...
+Rule 'bibtex main':  Reasons for rerun
+Changed files or newly in use/created:
+  main.aux
+
+------------
+Run number 3 of rule 'bibtex main'
+------------
+------------
+Running 'bibtex  "main.aux"'
+------------
+This is BibTeX, Version 0.99d (TeX Live 2013)
+The top-level auxiliary file: main.aux
+The style file: apacite.bst
+Database file #1: source.bib
+apacite.bst [2013/07/21 v6.03 APA bibliography style]
+Warning--No address in goodman2014concepts
+Warning--No journal in smith2024intuitive
+(There were 2 warnings)
+Latexmk: applying rule 'pdflatex'...
+Rule 'pdflatex':  Reasons for rerun
+Changed files or newly in use/created:
+  main.aux
+
+------------
+Run number 4 of rule 'pdflatex'
+------------
+------------
+Running 'pdflatex  -recorder  "main.tex"'
+------------
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013)
+ restricted \write18 enabled.
+entering extended mode
+(./main.tex
+LaTeX2e <2011/06/27>
+Babel <v3.8m> and hyphenation patterns for english, dumylang, nohyphenation, lo
+aded.
+(/usr/share/texlive/texmf-dist/tex/latex/base/article.cls
+Document Class: article 2007/10/19 v1.4h Standard LaTeX document class
+(/usr/share/texlive/texmf-dist/tex/latex/base/size10.clo)) (./cogsci.sty
+Conference Style for COGSCI -- last modified December 31, 2018
+) (/usr/share/texlive/texmf-dist/tex/latex/csquotes/csquotes.sty
+(/usr/share/texlive/texmf-dist/tex/latex/etoolbox/etoolbox.sty
+(/usr/share/texlive/texmf-dist/tex/latex/etex-pkg/etex.sty))
+(/usr/share/texlive/texmf-dist/tex/latex/graphics/keyval.sty)
+(/usr/share/texlive/texmf-dist/tex/latex/csquotes/csquotes.def)
+(/usr/share/texlive/texmf-dist/tex/latex/csquotes/csquotes.cfg))
+(/usr/share/texlive/texmf-dist/tex/latex/hyperref/hyperref.sty
+(/usr/share/texlive/texmf-dist/tex/generic/oberdiek/hobsub-hyperref.sty
+(/usr/share/texlive/texmf-dist/tex/generic/oberdiek/hobsub-generic.sty))
+(/usr/share/texlive/texmf-dist/tex/generic/ifxetex/ifxetex.sty)
+(/usr/share/texlive/texmf-dist/tex/latex/oberdiek/auxhook.sty)
+(/usr/share/texlive/texmf-dist/tex/latex/oberdiek/kvoptions.sty)
+(/usr/share/texlive/texmf-dist/tex/latex/hyperref/pd1enc.def)
+(/usr/share/texlive/texmf-dist/tex/latex/latexconfig/hyperref.cfg)
+(/usr/share/texlive/texmf-dist/tex/latex/url/url.sty))
+
+Package hyperref Message: Driver (autodetected): hpdftex.
+
+(/usr/share/texlive/texmf-dist/tex/latex/hyperref/hpdftex.def
+(/usr/share/texlive/texmf-dist/tex/latex/oberdiek/rerunfilecheck.sty))
+(/usr/share/texlive/texmf-dist/tex/latex/xcolor/xcolor.sty
+(/usr/share/texlive/texmf-dist/tex/latex/latexconfig/color.cfg)
+(/usr/share/texlive/texmf-dist/tex/latex/pdftex-def/pdftex.def))
+(/usr/share/texlive/texmf-dist/tex/latex/graphics/graphicx.sty
+(/usr/share/texlive/texmf-dist/tex/latex/graphics/graphics.sty
+(/usr/share/texlive/texmf-dist/tex/latex/graphics/trig.sty)
+(/usr/share/texlive/texmf-dist/tex/latex/latexconfig/graphics.cfg)))
+(/usr/share/texlive/texmf-dist/tex/latex/amsmath/amsmath.sty
+For additional information on amsmath, use the `?' option.
+(/usr/share/texlive/texmf-dist/tex/latex/amsmath/amstext.sty
+(/usr/share/texlive/texmf-dist/tex/latex/amsmath/amsgen.sty))
+(/usr/share/texlive/texmf-dist/tex/latex/amsmath/amsbsy.sty)
+(/usr/share/texlive/texmf-dist/tex/latex/amsmath/amsopn.sty))
+(/usr/share/texlive/texmf-dist/tex/latex/pslatex/pslatex.sty) (./apacite.sty)
+(/usr/share/texlive/texmf-dist/tex/latex/float/float.sty) (./main.aux
+
+LaTeX Warning: Label `table:llama70B-fixed-deceiver-correlation' multiply defin
+ed.
+
+
+LaTeX Warning: Label `table:gpt35-fixed-deceiver-correlation' multiply defined.
+
+
+
+LaTeX Warning: Label `table:llama70B-fixed-deceiver-correlation' multiply defin
+ed.
+
+
+LaTeX Warning: Label `table:gpt35-fixed-deceiver-correlation' multiply defined.
+
+
+
+LaTeX Warning: Label `fig:violin' multiply defined.
+
+
+LaTeX Warning: Label `fig:wasserstein_distance_by_runtime' multiply defined.
+
+
+LaTeX Warning: Label `fig:wasserstein_distance_by_runtime' multiply defined.
+
+) (/usr/share/texlive/texmf-dist/tex/latex/psnfss/omspzccm.fd)
+(/usr/share/texlive/texmf-dist/tex/latex/hyperref/nameref.sty
+(/usr/share/texlive/texmf-dist/tex/generic/oberdiek/gettitlestring.sty))
+(./main.out) (./main.out)
+(/usr/share/texlive/texmf-dist/tex/context/base/supp-pdf.mkii
+[Loading MPS to PDF converter (version 2006.09.02).]
+) (/usr/share/texlive/texmf-dist/tex/latex/oberdiek/epstopdf-base.sty
+(/usr/share/texlive/texmf-dist/tex/latex/oberdiek/grfext.sty)
+(/usr/share/texlive/texmf-dist/tex/latex/latexconfig/epstopdf-sys.cfg))
+(./english.apc) (/usr/share/texlive/texmf-dist/tex/latex/psnfss/ot1ptmcm.fd)
+(/usr/share/texlive/texmf-dist/tex/latex/psnfss/omlptmcm.fd)
+(/usr/share/texlive/texmf-dist/tex/latex/psnfss/omxpsycm.fd)
+Underfull \vbox (badness 10000) detected at line 79
+
+Underfull \hbox (badness 10000) in paragraph at lines 87--88
+[]\OT1/ptm/b/n/9 Code: [][]$\OT1/pcr/m/n/9 https :// github [] .com / julius []
+ -heitkoetter /
+<images/966_diagram2.png, id=104, 422.57875pt x 561.09625pt>
+<use images/966_diagram2.png> [1{/usr/share/texlive/texmf/fonts/map/pdftex/updm
+ap/pdftex.map}] <images/966_diagram1.pdf, id=161, 669.96379pt x 471.02629pt>
+<use images/966_diagram1.pdf> [2pdfTeX warning (ext4): destination with the sam
+e identifier (name{figure.1}) has been already used, duplicate ignored
+
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+l.150 \end{enumerate}
+                      <./images/966_diagram2.png>] [3pdfTeX warning (ext4): des
+tination with the same identifier (name{figure.2}) has been already used, dupli
+cate ignored
+
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+l.162 
+       <./images/966_diagram1.pdf>]
+Underfull \vbox (badness 1975) has occurred while \output is active
+Overfull \hbox (14.33589pt too wide) in paragraph at lines 186--199
+ [] 
+<images/stacked_violin_plot.png, id=346, 578.16pt x 578.16pt>
+<use images/stacked_violin_plot.png>
+<images/wasserstein_distance_by_runtime.png, id=347, 750.1626pt x 747.9945pt>
+<use images/wasserstein_distance_by_runtime.png>
+Overfull \hbox (9.7855pt too wide) in paragraph at lines 216--216
+ [][] 
+[4pdfTeX warning (ext4): destination with the same identifier (name{table.1}) h
+as been already used, duplicate ignored
+
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+l.227 \end{enumerate}
+                     ]
+
+Package hyperref Warning: Suppressing empty link on input line 234.
+
+
+Package hyperref Warning: Suppressing empty link on input line 236.
+
+[5pdfTeX warning (ext4): destination with the same identifier (name{figure.3}) 
+has been already used, duplicate ignored
+
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+l.239 
+       <./images/stacked_violin_plot.png> <./images/wasserstein_distance_by_run
+time.png>]
+<images/NaLaPIP_human_scatter_plot_with_deviations.png, id=390, 722.7pt x 722.7
+pt> <use images/NaLaPIP_human_scatter_plot_with_deviations.png> [6pdfTeX warnin
+g (ext4): destination with the same identifier (name{figure.4}) has been alread
+y used, duplicate ignored
+
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+l.269 
+       <./images/NaLaPIP_human_scatter_plot_with_deviations.png>] (./main.bbl
+! Misplaced alignment tab character &.
+<argument> John Wiley &
+                        Sons, Ltd
+l.365 ...ddressPublisher{}{John Wiley & Sons, Ltd}
+                                                  .
+? 
+Underfull \hbox (badness 1048) in paragraph at lines 351--374
+\OT1/ptm/m/it/10 the-ory \OT1/ptm/m/n/10 (p.[] 655-686).  John Wi-ley  Sons, Lt
+d.  Re-
+
+Underfull \hbox (badness 10000) in paragraph at lines 466--488
+[][]$\OT1/pcr/m/n/10 https :// www [] .sciencedirect [] .com / science / articl
+e /
+
+Underfull \vbox (badness 1264) has occurred while \output is active [7])
+[8]
+Underfull \hbox (badness 10000) in paragraph at lines 293--295
+
+<images/IMG_1108.jpeg, id=430, 1252.68pt x 1118.1775pt>
+<use images/IMG_1108.jpeg> [9 <./images/IMG_1108.jpeg>] [10] [11] [12]
+<images/ensemble0.png, id=467, 602.25pt x 501.875pt>
+<use images/ensemble0.png>
+<images/ensemble1.png, id=468, 602.25pt x 501.875pt>
+<use images/ensemble1.png>
+<images/ensemble2.png, id=469, 602.25pt x 501.875pt>
+<use images/ensemble2.png>
+<images/ensemble3.png, id=470, 602.25pt x 501.875pt>
+<use images/ensemble3.png> [13pdfTeX warning (ext4): destination with the same 
+identifier (name{figure.5}) has been already used, duplicate ignored
+
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+l.519 \newpage
+              pdfTeX warning (ext4): destination with the same identifier (name
+{figure.6}) has been already used, duplicate ignored
+
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+l.519 \newpage
+              pdfTeX warning (ext4): destination with the same identifier (name
+{figure.7}) has been already used, duplicate ignored
+
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+l.519 \newpage
+              pdfTeX warning (ext4): destination with the same identifier (name
+{figure.8}) has been already used, duplicate ignored
+
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+l.519 \newpage
+               <./images/ensemble0.png> <./images/ensemble1.png> <./images/ense
+mble2.png> <./images/ensemble3.png>]
+<images/ensemble4.png, id=484, 602.25pt x 501.875pt>
+<use images/ensemble4.png>
+<images/ensemble5.png, id=485, 602.25pt x 501.875pt>
+<use images/ensemble5.png>
+<images/ensemble6.png, id=486, 602.25pt x 501.875pt>
+<use images/ensemble6.png>
+<images/ensemble7.png, id=487, 602.25pt x 501.875pt>
+<use images/ensemble7.png> [14pdfTeX warning (ext4): destination with the same 
+identifier (name{figure.9}) has been already used, duplicate ignored
+
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+l.553 \newpage
+              pdfTeX warning (ext4): destination with the same identifier (name
+{figure.10}) has been already used, duplicate ignored
+
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+l.553 \newpage
+              pdfTeX warning (ext4): destination with the same identifier (name
+{figure.11}) has been already used, duplicate ignored
+
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+l.553 \newpage
+              pdfTeX warning (ext4): destination with the same identifier (name
+{figure.12}) has been already used, duplicate ignored
+
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+l.553 \newpage
+               <./images/ensemble4.png> <./images/ensemble5.png> <./images/ense
+mble6.png> <./images/ensemble7.png>]
+<images/LLM_human_scatter_plot_with_deviations.png, id=500, 722.7pt x 722.7pt>
+<use images/LLM_human_scatter_plot_with_deviations.png>
+<images/wasserstein_difference.png, id=501, 722.7pt x 578.16pt>
+<use images/wasserstein_difference.png>
+Overfull \hbox (15.17987pt too wide) in paragraph at lines 573--573
+ [][] 
+<images/wasserstein_distance.png, id=502, 867.24pt x 578.16pt>
+<use images/wasserstein_distance.png> [15pdfTeX warning (ext4): destination wit
+h the same identifier (name{figure.13}) has been already used, duplicate ignore
+d
+
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+l.586 \end{document}
+                    pdfTeX warning (ext4): destination with the same identifier
+ (name{figure.14}) has been already used, duplicate ignored
+
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+l.586 \end{document}
+                    pdfTeX warning (ext4): destination with the same identifier
+ (name{figure.15}) has been already used, duplicate ignored
+
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+l.586 \end{document}
+                     <./images/LLM_human_scatter_plot_with_deviations.png> <./i
+mages/wasserstein_difference.png> <./images/wasserstein_distance.png>]
+(./main.aux)
+
+LaTeX Warning: There were multiply-defined labels.
+
+ ){/usr/share/texlive/texmf-dist/fonts/enc/dvips/base/8r.enc}</usr/share/texliv
+e/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/share/texlive/texm
+f-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/share/texlive/texmf-dist/
+fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/share/texlive/texmf-dist/fonts/
+type1/urw/courier/ucrr8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/sym
+bol/usyr.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/times/utmb8a.pfb></
+usr/share/texlive/texmf-dist/fonts/type1/urw/times/utmr8a.pfb></usr/share/texli
+ve/texmf-dist/fonts/type1/urw/times/utmri8a.pfb>
+Output written on main.pdf (15 pages, 1179955 bytes).
+Transcript written on main.log.
+Latexmk: Getting log file 'main.log'
+Latexmk: Examining 'main.fls'
+Latexmk: Examining 'main.log'
+Latexmk: Found input bbl file 'main.bbl'
+Latexmk: Log file says output to 'main.pdf'
+Latexmk: Found bibliography file(s):
+  ./source.bib
+Latexmk: Summary of warnings from last run of *latex:
+  Latex found 9 multiply defined reference(s)
+  =====Latex reported missing or unavailable character(s).
+=====See log file for details.
+Latexmk: Errors, in force_mode: so I tried finishing targets
+Collected error summary (may duplicate other messages):
+  pdflatex: Command for 'pdflatex' gave return code 1
+      Refer to 'main.log' and/or above output for details
+
