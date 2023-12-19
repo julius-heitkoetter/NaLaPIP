@@ -15,7 +15,7 @@ latexmk -f -pdf > compile.log
 
 cd ..
 
-cp compile/main.pdf output/.
+cp compile/main.pdf output/Probing-Intuitive-Physics-Understanding.pdf
 cp compile/compile.log output/.
 
 rm -rf compile
