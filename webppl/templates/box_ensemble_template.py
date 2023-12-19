@@ -30,7 +30,7 @@ BOX_ENSEMBLE_TEMPLATE = {
                 'red',
                 'purple',
                 'red',
-        ], noise, [])
+        ], noise_pos, noise_size, [])
         """,
     1 : """
         var boxes = generate_boxes_from_arr(
@@ -63,7 +63,7 @@ BOX_ENSEMBLE_TEMPLATE = {
                 'purple',
                 'purple',
                 'red',
-            ], noise, [])
+            ], noise_pos, noise_size, [])
         """,
     2 : """
         var boxes = generate_boxes_from_arr(
@@ -96,7 +96,7 @@ BOX_ENSEMBLE_TEMPLATE = {
         'red',
         'purple',
         'red',
-      ], noise, []) 
+      ], noise_pos, noise_size, []) 
         """,  #TODO: fix colors on this one
     3 : """var boxes = generate_boxes_from_arr(
             [
@@ -128,7 +128,7 @@ BOX_ENSEMBLE_TEMPLATE = {
                 'purple',
                 'red',
                 'red',
-        ], noise, [])""",
+        ], noise_pos, noise_size, [])""",
 
     4 : """var boxes = generate_boxes_from_arr(
             [
@@ -160,7 +160,7 @@ BOX_ENSEMBLE_TEMPLATE = {
                 'red',
                 'red',
                 'red',
-        ], noise, [])""",
+        ], noise_pos, noise_size, [])""",
 
     5 : """
     var boxes = generate_boxes_from_arr(
@@ -193,7 +193,7 @@ BOX_ENSEMBLE_TEMPLATE = {
                 'red',
                 'red',
                 'red',
-        ], noise, [])""",
+        ], noise_pos, noise_size, [])""",
     6 : """var boxes = generate_boxes_from_arr(
             [
                 [390, 325-30],
@@ -224,7 +224,7 @@ BOX_ENSEMBLE_TEMPLATE = {
                 'red',
                 'red',
                 'red',
-        ], noise, [])""",
+        ], noise_pos, noise_size, [])""",
 
     7 : """
 
@@ -258,6 +258,6 @@ BOX_ENSEMBLE_TEMPLATE = {
                 'red',
                 'red',
                 'red',
-        ], noise, [])
+        ], noise_pos, noise_size, [])
         """
 }

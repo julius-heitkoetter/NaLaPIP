@@ -1,5 +1,5 @@
 MODEL_TEMPLATE = """
-var makeWorld = function(noise) {{
+var makeWorld = function(noise_pos, noise_size) {{
   
   var worldWidth = 600;
   var worldHeight = 500;
@@ -24,14 +24,14 @@ var makeWorld = function(noise) {{
       type: "table",
     }}
     
-    var generate_boxes_from_arr = function(pos_arr, size_arr, color_arr, noise, boxes_so_far) {{
+    var generate_boxes_from_arr = function(pos_arr, size_arr, color_arr, pos_noise, size_noise, boxes_so_far) {{
       var i = boxes_so_far.length;
       var box = {{
         shape: 'rect',
         static: false,
-        dims: [size_arr[i][0] + gaussian({{mu: 0, sigma: noise}}), size_arr[i][1] + gaussian({{mu: 0, sigma: noise}})], 
-        x: pos_arr[i][0] + gaussian({{mu: 0, sigma: noise}}),
-        y: pos_arr[i][1] + gaussian({{mu: 0, sigma: noise}}),
+        dims: [size_arr[i][0] + gaussian({{mu: 0, sigma: size_noise}}), size_arr[i][1] + gaussian({{mu: 0, sigma: size_noise}})], 
+        x: pos_arr[i][0] + gaussian({{mu: 0, sigma: pos_noise}}),
+        y: pos_arr[i][1] + gaussian({{mu: 0, sigma: pos_noise}}),
         color: color_arr[i],
         type: "box",
       }}
@@ -41,7 +41,7 @@ var makeWorld = function(noise) {{
       if (boxes.length == pos_arr.length) {{
         return boxes
       }} else {{
-        return generate_boxes_from_arr(pos_arr, size_arr, color_arr, noise, boxes)
+        return generate_boxes_from_arr(pos_arr, size_arr, color_arr, pos_noise, size_noise, boxes)
       }}
     }}
     
@@ -119,7 +119,7 @@ var run = function (world) {{
 
 var result = function() {{
   var d = Infer({{method: 'rejection', samples: {N_SIMULATIONS}, incremental: true}},
-               function() {{ return run(makeWorld( {PHYSICAL_GAUSSIAN_NOISEL} )) }})
+               function() {{ return run(makeWorld( {PHYSICAL_GAUSSIAN_POS_NOISE}, {PHYSICAL_GAUSSIAN_POS_NOISE} )) }})
   var noProb = Math.exp(d.score(0))
   var yesProb = Math.exp(d.score(1))
   var likert = Math.round((yesProb / (noProb + yesProb)) * 6) + 1;

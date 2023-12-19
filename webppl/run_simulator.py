@@ -17,7 +17,7 @@ DIR_MODELS = "models"
 DIR_RESULTS = "results"
 DIR_WEBPPL = "webppl"
 
-def populate_template(df, task_id, n_simulations: int = 10, n_participants: int = 20, physical_gaussian_noise: float = 3):
+def populate_template(df, task_id, n_simulations: int = 10, n_participants: int = 20, physical_gaussian_pos_noise: float = 3, physical_gaussian_size_noise: float = 3):
 
     conditional_str = df.loc[task_id, f"codex_conditional_str"]
     box_ensemble_index = df.loc[task_id, f"box_ensemble_index"]
@@ -27,15 +27,23 @@ def populate_template(df, task_id, n_simulations: int = 10, n_participants: int 
     model_template = MODEL_TEMPLATE.format(
         N_SIMULATIONS=n_simulations, 
         N_PARTICIPANTS=n_participants, 
-        PHYSICAL_GAUSSIAN_NOISEL=physical_gaussian_noise,
+        PHYSICAL_GAUSSIAN_POS_NOISE=physical_gaussian_pos_noise,
+        PHYSICAL_GAUSSIAN_SIZE_NOISE=physical_gaussian_size_noise,
         CONDITIONAL=conditional_str,
         BOX_ENSEMBLE=box_ensemble,
     )
 
     return model_template
 
-def write_model_for_task(df, task_id, n_simulations, n_participants, physical_gaussian_noise, model_dir):
-    model_template = populate_template(df, task_id, n_simulations=n_simulations, n_participants=n_participants, physical_gaussian_noise=physical_gaussian_noise)
+def write_model_for_task(df, task_id, n_simulations, n_participants, physical_gaussian_pos_noise, physical_gaussian_size_noise, model_dir):
+    model_template = populate_template(
+        df, 
+        task_id, 
+        n_simulations=n_simulations, 
+        n_participants=n_participants, 
+        physical_gaussian_pos_noise=physical_gaussian_pos_noise, 
+        physical_gaussian_size_noise=physical_gaussian_size_noise
+    )
     model_file = os.path.join(model_dir, f"model_{task_id:03d}.wppl")
     with open(model_file, "w") as f:
         f.write(model_template)
@@ -95,7 +103,8 @@ def run_experiment(
     use_cached: bool = False,
     n_simulations: int = 10,
     n_participants: int = 20,
-    physical_gaussian_noise: float = 2,
+    physical_gaussian_pos_noise: float = 2,
+    physical_gaussian_size_noise: float = 1,
     timeout: int = 120,
     seed: int = 123,
     parallel: bool = False,
@@ -113,7 +122,7 @@ def run_experiment(
 
     # Write out model files
     for task_id, row in df.iterrows():
-        write_model_for_task(df, task_id, n_simulations, n_participants, physical_gaussian_noise, model_dir)
+        write_model_for_task(df, task_id, n_simulations, n_participants, physical_gaussian_pos_noise, physical_gaussian_size_noise, model_dir)
 
     # Run simulations
     if parallel:
@@ -200,6 +209,8 @@ def main():
     parser.add_argument("--use_cached", action="store_true", default=False, help="Checks the results dir for prior results.pkl files and uses these when available.")
     parser.add_argument("--n_simulations", type=int, default=10, help="Number of physics simulations to run for each participant.")
     parser.add_argument("--n_participants", type=int, default=20, help="Number of (simulated) participants. Each participant runs `n_simulations` mental simulations and reports the average on a likert scale.")
+    parser.add_argument("--physical_gaussian_pos_noise", type=float, default=2, help="How much gaussian noise is running in the physics simulation")
+    parser.add_argument("--physical_gaussian_size_noise", type=float, default=2, help="How much gaussian noise is running in the physics simulation")
     parser.add_argument("--timeout", type=int, default=120, help="Per-task timeout (seconds) after which simulation will be terminated.")
     parser.add_argument("--seed", type=int, default=123, help="Random seed to pass to WebPPL.")
     parser.add_argument(
@@ -212,6 +223,8 @@ def main():
         use_cached=args.use_cached,
         n_participants=args.n_participants,
         n_simulations=args.n_simulations,
+        physical_gaussian_pos_noise=args.physical_gaussian_pos_noise,
+        physical_gaussian_size_noise=args.physical_gaussian_size_noise,
         timeout=args.timeout,
         seed=args.seed,
         parallel=args.parallel,
