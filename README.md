@@ -2,9 +2,9 @@
 
 Natural Language Probing with Intuitive Physics models and framework: a class project for MIT's Computation Congitive Science class taught by Josh Tennebaum. 
 
-![NaLaPIP Framework Image](https://julius-heitkoetter.github.io/NaLaPIP/paper/images/966_diagram1.png)
-
 Read the paper [here](https://julius-heitkoetter.github.io/NaLaPIP/paper/output/Probing-Intuitive-Physics-Understanding.pdf)
+
+![NaLaPIP Framework Image](https://julius-heitkoetter.github.io/NaLaPIP/paper/images/966_diagram1.png)
 
 ## Setup
 
