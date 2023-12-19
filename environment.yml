@@ -1,4 +1,4 @@
-name: physlang
+name: NaLaPIP
 channels:
   - defaults
 dependencies:
